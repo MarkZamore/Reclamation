@@ -1,0 +1,27 @@
+{
+  "authorArchiveSha256": "1aa6253e5c211751ea3951b68e678574a59f4e34246208b2032f9183cea3b344",
+  "preview": {
+    "height": 540,
+    "sha256": "eb373d87927163fe077889cb02dae41bdd08361a85405b03b67cbedfefaa207f",
+    "sizeBytes": 213523,
+    "width": 960
+  },
+  "schemaVersion": 1,
+  "source": {
+    "authorPage": "https://www.curseforge.com/minecraft/modpacks/reclamation-reclaim-the-world/gallery",
+    "height": 587,
+    "sha256": "9f3b148ebfe8b6556c8639aea64a582d3b5bb08094fd4df9f726885eebc0af24",
+    "sizeBytes": 332633,
+    "url": "https://media.forgecdn.net/attachments/1246/439/reclamation_banner-png.png",
+    "width": 1045
+  },
+  "transformation": {
+    "background": "#121212",
+    "format": "JPEG",
+    "method": "Lanczos resize preserving the full image",
+    "optimize": true,
+    "pillowVersion": "12.3.0",
+    "quality": 92,
+    "subsampling": 0
+  }
+}
