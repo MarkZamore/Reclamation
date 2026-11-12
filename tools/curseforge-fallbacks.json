@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "files": [
+    {
+      "projectId": 869524,
+      "fileId": 7999277,
+      "fileName": "watermedia-3.0.0.16.jar",
+      "sizeBytes": 1512980,
+      "sha256": "242b73ce161a7ade686a6d7f55797a4277d14be3c59f613a7775cbde43a53d14",
+      "sourceUrl": "https://mediafilez.forgecdn.net/files/7999/277/watermedia-3.0.0.16.jar"
+    },
+    {
+      "projectId": 1029438,
+      "fileId": 7436617,
+      "fileName": "wm_binaries-3.0.0-rc.1.jar",
+      "sizeBytes": 179378119,
+      "sha256": "720d8cf3cef97856a1347738b259ed54d7a2aa06cbe7e304fc46d1c746343f0b",
+      "sourceUrl": "https://mediafilez.forgecdn.net/files/7436/617/wm_binaries-3.0.0-rc.1.jar"
+    }
+  ]
+}
