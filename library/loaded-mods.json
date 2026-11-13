@@ -1,0 +1,1417 @@
+{
+  "loader": {
+    "type": "forge",
+    "version": "47.4.0"
+  },
+  "minecraftVersion": "1.20.1",
+  "mods": [
+    {
+      "id": "advanced_ae",
+      "name": "Advanced AE",
+      "nativeSourceFile": "AdvancedAE-1.3.5-1.20.1.jar",
+      "source": "mods/AdvancedAE-1.3.5-1.20.1.jar",
+      "version": "1.3.5-1.20.1"
+    },
+    {
+      "id": "ae2",
+      "name": "Applied Energistics 2",
+      "nativeSourceFile": "appliedenergistics2-forge-15.4.10.jar",
+      "source": "mods/appliedenergistics2-forge-15.4.10.jar",
+      "version": "15.4.10"
+    },
+    {
+      "id": "ae2addonlib",
+      "name": "AE2AddonLib",
+      "nativeSourceFile": "ae2addonlib-1.0.4-1.20.1.jar",
+      "source": "mods/AdvancedAE-1.3.5-1.20.1.jar",
+      "version": "1.0.4-1.20.1"
+    },
+    {
+      "id": "ae2wtlib",
+      "name": "AE2WTLib",
+      "nativeSourceFile": "ae2wtlib-15.3.3-forge.jar",
+      "source": "mods/ae2wtlib-15.3.3-forge.jar",
+      "version": "15.3.3-forge"
+    },
+    {
+      "id": "agricraft",
+      "name": "AgriCraft",
+      "nativeSourceFile": "AgriCraft-forge-1.20.1-4.0.6.jar",
+      "source": "mods/AgriCraft-forge-1.20.1-4.0.6.jar",
+      "version": "4.0.6"
+    },
+    {
+      "id": "akashictome",
+      "name": "Akashic Tome",
+      "nativeSourceFile": "AkashicTome-1.7-27.jar",
+      "source": "mods/AkashicTome-1.7-27.jar",
+      "version": "1.7-27"
+    },
+    {
+      "id": "antiblocksrechiseled",
+      "name": "AntiBlocksReChiseled",
+      "nativeSourceFile": "antiblocksrechiseled-0.4.8.jar",
+      "source": "mods/antiblocksrechiseled-0.4.8.jar",
+      "version": "0.4.8"
+    },
+    {
+      "id": "appbot",
+      "name": "Applied Botanics",
+      "nativeSourceFile": "applied-botanics-forge-1.5.2.jar",
+      "source": "mods/applied-botanics-forge-1.5.2.jar",
+      "version": "1.5.2"
+    },
+    {
+      "id": "appleskin",
+      "name": "AppleSkin",
+      "nativeSourceFile": "appleskin-forge-mc1.20.1-2.5.1.jar",
+      "source": "mods/appleskin-forge-mc1.20.1-2.5.1.jar",
+      "version": "2.5.1+mc1.20.1"
+    },
+    {
+      "id": "appliedcooking",
+      "name": "Applied Cooking",
+      "nativeSourceFile": "appliedcooking-4.0.0.jar",
+      "source": "mods/appliedcooking-4.0.0.jar",
+      "version": "4.0.0"
+    },
+    {
+      "id": "appmek",
+      "name": "Applied Mekanistics",
+      "nativeSourceFile": "Applied-Mekanistics-1.4.3.jar",
+      "source": "mods/Applied-Mekanistics-1.4.3.jar",
+      "version": "1.4.3"
+    },
+    {
+      "id": "architectury",
+      "name": "Architectury",
+      "nativeSourceFile": "architectury-9.2.14-forge.jar",
+      "source": "mods/architectury-9.2.14-forge.jar",
+      "version": "9.2.14"
+    },
+    {
+      "id": "ars_artifice",
+      "name": "Ars Artifice",
+      "nativeSourceFile": "ars_artifice-1.20.1-2.0.4.jar",
+      "source": "mods/ars_artifice-1.20.1-2.0.4.jar",
+      "version": "1.20.1-2.0.4"
+    },
+    {
+      "id": "ars_creo",
+      "name": "Ars Creo",
+      "nativeSourceFile": "ars_creo-1.20.1-4.3.0.jar",
+      "source": "mods/ars_creo-1.20.1-4.3.0.jar",
+      "version": "4.3.0"
+    },
+    {
+      "id": "ars_elemental",
+      "name": "Ars Elemental",
+      "nativeSourceFile": "ars_elemental-1.20.1-0.6.7.9.jar",
+      "source": "mods/ars_elemental-1.20.1-0.6.7.9.jar",
+      "version": "0.6.7.9"
+    },
+    {
+      "id": "ars_nouveau",
+      "name": "Ars Nouveau",
+      "nativeSourceFile": "ars_nouveau-1.20.1-4.12.7-all.jar",
+      "source": "mods/ars_nouveau-1.20.1-4.12.7-all.jar",
+      "version": "4.12.7"
+    },
+    {
+      "id": "arseng",
+      "name": "Ars Énergistique",
+      "nativeSourceFile": "arseng-1.2.0.jar",
+      "source": "mods/arseng-1.2.0.jar",
+      "version": "1.2.0"
+    },
+    {
+      "id": "athena",
+      "name": "Athena",
+      "nativeSourceFile": "athena-forge-1.20.1-3.1.2.jar",
+      "source": "mods/athena-forge-1.20.1-3.1.2.jar",
+      "version": "3.1.2"
+    },
+    {
+      "id": "attributefix",
+      "name": "AttributeFix",
+      "nativeSourceFile": "AttributeFix-Forge-1.20.1-21.0.5.jar",
+      "source": "mods/AttributeFix-Forge-1.20.1-21.0.5.jar",
+      "version": "21.0.5"
+    },
+    {
+      "id": "baguettelib",
+      "name": "BaguetteLib",
+      "nativeSourceFile": "baguettelib-1.20.1-Forge-1.1.6.jar",
+      "source": "mods/baguettelib-1.20.1-Forge-1.1.6.jar",
+      "version": "1.1.6"
+    },
+    {
+      "id": "balm",
+      "name": "Balm",
+      "nativeSourceFile": "balm-forge-1.20.1-7.3.38-all.jar",
+      "source": "mods/balm-forge-1.20.1-7.3.38-all.jar",
+      "version": "7.3.38"
+    },
+    {
+      "id": "bloodmagic",
+      "name": "Blood Magic",
+      "nativeSourceFile": "bloodmagic-1.20.1-3.3.7-49.jar",
+      "source": "mods/bloodmagic-1.20.1-3.3.7-49.jar",
+      "version": "3.3.7-49"
+    },
+    {
+      "id": "botania",
+      "name": "Botania",
+      "nativeSourceFile": "Botania-1.20.1-452-FORGE.jar",
+      "source": "mods/Botania-1.20.1-452-FORGE.jar",
+      "version": "1.20.1-452-FORGE"
+    },
+    {
+      "id": "buildinggadgets2",
+      "name": "Building Gadgets 2",
+      "nativeSourceFile": "buildinggadgets2-1.0.8.jar",
+      "source": "mods/buildinggadgets2-1.0.8.jar",
+      "version": "1.0.8"
+    },
+    {
+      "id": "chipped",
+      "name": "Chipped",
+      "nativeSourceFile": "chipped-forge-1.20.1-3.0.7.jar",
+      "source": "mods/chipped-forge-1.20.1-3.0.7.jar",
+      "version": "3.0.7"
+    },
+    {
+      "id": "chisel_chipped_integration",
+      "name": "Chisel",
+      "nativeSourceFile": "chisel_chipped_integration-v1.1.6-1.20.1.jar",
+      "source": "mods/chisel_chipped_integration-v1.1.6-1.20.1.jar",
+      "version": "1.1.4-1.20.1"
+    },
+    {
+      "id": "cleanswing",
+      "name": "Clean Swing Through Grass",
+      "nativeSourceFile": "cleanswing-1.20-1.8.jar",
+      "source": "mods/cleanswing-1.20-1.8.jar",
+      "version": "1.8"
+    },
+    {
+      "id": "cloth_config",
+      "name": "Cloth Config v10 API",
+      "nativeSourceFile": "cloth-config-11.1.136-forge.jar",
+      "source": "mods/cloth-config-11.1.136-forge.jar",
+      "version": "11.1.136"
+    },
+    {
+      "id": "clumps",
+      "name": "Clumps",
+      "nativeSourceFile": "Clumps-forge-1.20.1-12.0.0.4.jar",
+      "source": "mods/Clumps-forge-1.20.1-12.0.0.4.jar",
+      "version": "12.0.0.4"
+    },
+    {
+      "id": "comforts",
+      "name": "Comforts",
+      "nativeSourceFile": "comforts-forge-6.4.0+1.20.1.jar",
+      "source": "mods/comforts-forge-6.4.0+1.20.1.jar",
+      "version": "6.4.0+1.20.1"
+    },
+    {
+      "id": "complicated_bees",
+      "name": "Complicated Bees",
+      "nativeSourceFile": "complicated_bees-1.20.1-3.4.1.jar",
+      "source": "mods/complicated_bees-1.20.1-3.4.1.jar",
+      "version": "1.20.1-3.4.1"
+    },
+    {
+      "id": "constructionwand",
+      "name": "Construction Wand",
+      "nativeSourceFile": "constructionwand-1.20.1-2.11.jar",
+      "source": "mods/constructionwand-1.20.1-2.11.jar",
+      "version": "1.20.1-2.11"
+    },
+    {
+      "id": "controlling",
+      "name": "Controlling",
+      "nativeSourceFile": "Controlling-forge-1.20.1-12.0.2.jar",
+      "source": "mods/Controlling-forge-1.20.1-12.0.2.jar",
+      "version": "12.0.2"
+    },
+    {
+      "id": "cookingforblockheads",
+      "name": "CookingForBlockheads",
+      "nativeSourceFile": "cookingforblockheads-forge-1.20.1-16.0.15.jar",
+      "source": "mods/cookingforblockheads-forge-1.20.1-16.0.15.jar",
+      "version": "16.0.15"
+    },
+    {
+      "id": "copycats",
+      "name": "Create: Copycats+",
+      "nativeSourceFile": "copycats-3.0.7+mc.1.20.1-forge.jar",
+      "source": "mods/copycats-3.0.7+mc.1.20.1-forge.jar",
+      "version": "3.0.7+mc.1.20.1-forge"
+    },
+    {
+      "id": "craftingtweaks",
+      "name": "CraftingTweaks",
+      "nativeSourceFile": "craftingtweaks-forge-1.20.1-18.2.9.jar",
+      "source": "mods/craftingtweaks-forge-1.20.1-18.2.9.jar",
+      "version": "18.2.9"
+    },
+    {
+      "id": "crash_assistant",
+      "name": "Crash Assistant",
+      "nativeSourceFile": "crash_assistant-forge.jar",
+      "source": "mods/CrashAssistant-forge-1.19-1.20.1-1.11.9.jar",
+      "version": "1.11.9"
+    },
+    {
+      "id": "craterlib",
+      "name": "CraterLib",
+      "nativeSourceFile": "CraterLib-Forge-1.20-3.1.1.jar",
+      "source": "mods/CraterLib-Forge-1.20-3.1.1.jar",
+      "version": "3.1.1"
+    },
+    {
+      "id": "create",
+      "name": "Create",
+      "nativeSourceFile": "create-1.20.1-6.0.8.jar",
+      "source": "mods/create-1.20.1-6.0.8.jar",
+      "version": "6.0.8"
+    },
+    {
+      "id": "create_central_kitchen",
+      "name": "Create: Central Kitchen",
+      "nativeSourceFile": "create_central_kitchen-1.20.1-for-create-6.0.6-1.4.3b.jar",
+      "source": "mods/create_central_kitchen-1.20.1-for-create-6.0.6-1.4.3b.jar",
+      "version": "1.4.3b"
+    },
+    {
+      "id": "createdeco",
+      "name": "Create Deco",
+      "nativeSourceFile": "createdeco-2.0.3-1.20.1-forge.jar",
+      "source": "mods/createdeco-2.0.3-1.20.1-forge.jar",
+      "version": "2.0.3-1.20.1-forge"
+    },
+    {
+      "id": "createstockbridge",
+      "name": "Create Stock Bridge",
+      "nativeSourceFile": "createstockbridge-1.20-0.2.0.jar",
+      "source": "mods/createstockbridge-1.20-0.2.0.jar",
+      "version": "0.2.0"
+    },
+    {
+      "id": "croptopia",
+      "name": "Croptopia",
+      "nativeSourceFile": "Croptopia-1.20.1-FORGE-4.0.1.jar",
+      "source": "mods/Croptopia-1.20.1-FORGE-4.0.1.jar",
+      "version": "0.0NONE"
+    },
+    {
+      "id": "ctm",
+      "name": "ConnectedTexturesMod",
+      "nativeSourceFile": "CTM-1.20.1-1.1.10.jar",
+      "source": "mods/CTM-1.20.1-1.1.10.jar",
+      "version": "1.20.1-1.1.10"
+    },
+    {
+      "id": "cucumber",
+      "name": "Cucumber Library",
+      "nativeSourceFile": "Cucumber-1.20.1-7.0.16.jar",
+      "source": "mods/Cucumber-1.20.1-7.0.16.jar",
+      "version": "7.0.16"
+    },
+    {
+      "id": "cupboard",
+      "name": "Cupboard utilities",
+      "nativeSourceFile": "cupboard-1.20.1-3.7.jar",
+      "source": "mods/cupboard-1.20.1-3.7.jar",
+      "version": "1.20.1-3.7"
+    },
+    {
+      "id": "curios",
+      "name": "Curios API",
+      "nativeSourceFile": "curios-forge-5.14.1+1.20.1.jar",
+      "source": "mods/curios-forge-5.14.1+1.20.1.jar",
+      "version": "5.14.1+1.20.1"
+    },
+    {
+      "id": "ding",
+      "name": "Ding",
+      "nativeSourceFile": "Ding-1.20.1-Forge-1.5.0.jar",
+      "source": "mods/Ding-1.20.1-Forge-1.5.0.jar",
+      "version": "1.5.0"
+    },
+    {
+      "id": "embeddium",
+      "name": "Embeddium",
+      "nativeSourceFile": "embeddium-0.3.31+mc1.20.1.jar",
+      "source": "mods/embeddium-0.3.31+mc1.20.1.jar",
+      "version": "0.3.31+mc1.20.1"
+    },
+    {
+      "id": "embers",
+      "name": "Embers Rekindled",
+      "nativeSourceFile": "embersrekindled-1.20.1-1.4.7.jar",
+      "source": "mods/embersrekindled-1.20.1-1.4.7.jar",
+      "version": "1.20.1-1.4.7"
+    },
+    {
+      "id": "emi",
+      "name": "EMI",
+      "nativeSourceFile": "emi-1.1.24+1.20.1+forge.jar",
+      "source": "mods/emi-1.1.24+1.20.1+forge.jar",
+      "version": "1.1.24+1.20.1+forge"
+    },
+    {
+      "id": "emi_loot",
+      "name": "EMI Loot",
+      "nativeSourceFile": "emi_loot-0.7.9+1.20.1+forge.jar",
+      "source": "mods/emi_loot-0.7.9+1.20.1+forge.jar",
+      "version": "0.7.9+1.20.1+forge"
+    },
+    {
+      "id": "emojiful",
+      "name": "Emojiful",
+      "nativeSourceFile": "Emojiful-Forge-1.20.1-4.2.0.jar",
+      "source": "mods/Emojiful-Forge-1.20.1-4.2.0.jar",
+      "version": "4.2.0"
+    },
+    {
+      "id": "enchanted",
+      "name": "Enchanted",
+      "nativeSourceFile": "enchanted-forge-1.20.1-3.1.13.jar",
+      "source": "mods/enchanted-forge-1.20.1-3.1.13.jar",
+      "version": "3.1.13"
+    },
+    {
+      "id": "entityculling",
+      "name": "EntityCulling",
+      "nativeSourceFile": "entityculling-forge-1.10.1-mc1.20.1.jar",
+      "source": "mods/entityculling-forge-1.10.1-mc1.20.1.jar",
+      "version": "1.10.1"
+    },
+    {
+      "id": "epherolib",
+      "name": "BOZOID",
+      "nativeSourceFile": "EpheroLib-1.20.1-FORGE-1.2.0.jar",
+      "source": "mods/EpheroLib-1.20.1-FORGE-1.2.0.jar",
+      "version": "0.1.2"
+    },
+    {
+      "id": "expatternprovider",
+      "name": "ExtendedAE",
+      "nativeSourceFile": "ExtendedAE-1.20-1.4.15-forge.jar",
+      "source": "mods/ExtendedAE-1.20-1.4.15-forge.jar",
+      "version": "1.20-1.4.15-forge"
+    },
+    {
+      "id": "experimentalsettingsdisabler",
+      "name": "Experimental Settings Disabler",
+      "nativeSourceFile": "experimentalsettingsdisabler-1.20.1-3.0.jar",
+      "source": "mods/experimentalsettingsdisabler-1.20.1-3.0.jar",
+      "version": "3.0"
+    },
+    {
+      "id": "exposure",
+      "name": "Exposure",
+      "nativeSourceFile": "exposure-1.20.1-1.7.16-forge.jar",
+      "source": "mods/exposure-1.20.1-1.7.16-forge.jar",
+      "version": "1.7.16"
+    },
+    {
+      "id": "extremesoundmuffler",
+      "name": "Extreme Sound Muffler",
+      "nativeSourceFile": "ExtremeSoundMuffler-3.51-forge-1.20.1.jar",
+      "source": "mods/ExtremeSoundMuffler-3.51-forge-1.20.1.jar",
+      "version": "3.51"
+    },
+    {
+      "id": "fancymenu",
+      "name": "FancyMenu",
+      "nativeSourceFile": "fancymenu_forge_3.9.3_MC_1.20.1.jar",
+      "source": "mods/fancymenu_forge_3.9.3_MC_1.20.1.jar",
+      "version": "3.9.3"
+    },
+    {
+      "id": "farmers_croptopia",
+      "name": "Farmer's Croptopia",
+      "nativeSourceFile": "farmers_croptopia-1.20.1-3.2.1.jar",
+      "source": "mods/farmers_croptopia-1.20.1-3.2.1.jar",
+      "version": "3.2.1"
+    },
+    {
+      "id": "farmersdelight",
+      "name": "Farmer's Delight",
+      "nativeSourceFile": "FarmersDelight-1.20.1-1.3.2.jar",
+      "source": "mods/FarmersDelight-1.20.1-1.3.2.jar",
+      "version": "1.20.1-1.3.2"
+    },
+    {
+      "id": "fastasyncworldsave",
+      "name": "fastasyncworldsave mod",
+      "nativeSourceFile": "fastasyncworldsave-1.20.1-2.6.jar",
+      "source": "mods/fastasyncworldsave-1.20.1-2.6.jar",
+      "version": "1.20.1-2.6"
+    },
+    {
+      "id": "fastleafdecay",
+      "name": "Fast Leaf Decay",
+      "nativeSourceFile": "FastLeafDecay-32.jar",
+      "source": "mods/FastLeafDecay-32.jar",
+      "version": "32"
+    },
+    {
+      "id": "ferritecore",
+      "name": "Ferrite Core",
+      "nativeSourceFile": "ferritecore-6.0.1-forge.jar",
+      "source": "mods/ferritecore-6.0.1-forge.jar",
+      "version": "6.0.1"
+    },
+    {
+      "id": "flywheel",
+      "name": "Flywheel",
+      "nativeSourceFile": "flywheel-forge-1.20.1-1.0.5.jar",
+      "source": "mods/create-1.20.1-6.0.8.jar",
+      "version": "1.0.5"
+    },
+    {
+      "id": "ftbbackups2",
+      "name": "FTB Backups 2",
+      "nativeSourceFile": "ftbbackups2-forge-1.20-1.0.23.jar",
+      "source": "mods/ftbbackups2-forge-1.20-1.0.23.jar",
+      "version": "1.0.23"
+    },
+    {
+      "id": "ftblibrary",
+      "name": "FTB Library",
+      "nativeSourceFile": "ftb-library-forge-2001.2.12.jar",
+      "source": "mods/ftb-library-forge-2001.2.12.jar",
+      "version": "2001.2.12"
+    },
+    {
+      "id": "ftbquestlocalizer",
+      "name": "FTB Quests Localizer",
+      "nativeSourceFile": "ftbquestlocalizer-1.20.1-forge-3.2.0.jar",
+      "source": "mods/ftbquestlocalizer-1.20.1-forge-3.2.0.jar",
+      "version": "3.2.0"
+    },
+    {
+      "id": "ftbquests",
+      "name": "FTB Quests",
+      "nativeSourceFile": "ftb-quests-forge-2001.4.22.jar",
+      "source": "mods/ftb-quests-forge-2001.4.22.jar",
+      "version": "2001.4.22"
+    },
+    {
+      "id": "ftbteams",
+      "name": "FTB Teams",
+      "nativeSourceFile": "ftb-teams-forge-2001.3.2.jar",
+      "source": "mods/ftb-teams-forge-2001.3.2.jar",
+      "version": "2001.3.2"
+    },
+    {
+      "id": "ftbxmodcompat",
+      "name": "FTB XMod Compat",
+      "nativeSourceFile": "ftb-xmod-compat-forge-2.1.3.jar",
+      "source": "mods/ftb-xmod-compat-forge-2.1.3.jar",
+      "version": "2.1.3"
+    },
+    {
+      "id": "fusion",
+      "name": "Fusion",
+      "nativeSourceFile": "fusion-1.2.12-forge-mc1.20.1.jar",
+      "source": "mods/fusion-1.2.12-forge-mc1.20.1.jar",
+      "version": "1.2.12"
+    },
+    {
+      "id": "fzzy_config",
+      "name": "Fzzy Config",
+      "nativeSourceFile": "fzzy_config-0.7.6+1.20.1+forge.jar",
+      "source": "mods/fzzy_config-0.7.6+1.20.1+forge.jar",
+      "version": "0.7.6+1.20.1+forge"
+    },
+    {
+      "id": "geckolib",
+      "name": "GeckoLib 4",
+      "nativeSourceFile": "geckolib-forge-1.20.1-4.8.3.jar",
+      "source": "mods/geckolib-forge-1.20.1-4.8.3.jar",
+      "version": "4.8.3"
+    },
+    {
+      "id": "glodium",
+      "name": "Glodium",
+      "nativeSourceFile": "Glodium-1.20-1.5-forge.jar",
+      "source": "mods/Glodium-1.20-1.5-forge.jar",
+      "version": "1.20-1.5-forge"
+    },
+    {
+      "id": "gpumemleakfix",
+      "name": "Gpu memory leak fix",
+      "nativeSourceFile": "gpumemleakfix-1.20.1-1.8.jar",
+      "source": "mods/gpumemleakfix-1.20.1-1.8.jar",
+      "version": "1.20.1-1.8"
+    },
+    {
+      "id": "gravestone",
+      "name": "Gravestone Mod",
+      "nativeSourceFile": "gravestone-forge-1.20.1-1.0.35.jar",
+      "source": "mods/gravestone-forge-1.20.1-1.0.35.jar",
+      "version": "1.20.1-1.0.35"
+    },
+    {
+      "id": "gravestonecurioscompat",
+      "name": "Gravestone Curios Compatibility",
+      "nativeSourceFile": "gravestonecurioscompat-1.20.1-Forge-4.0.2.jar",
+      "source": "mods/gravestonecurioscompat-1.20.1-Forge-4.0.2.jar",
+      "version": "4.0.2"
+    },
+    {
+      "id": "guideme",
+      "name": "GuideME",
+      "nativeSourceFile": "guideme-20.1.14.jar",
+      "source": "mods/guideme-20.1.14.jar",
+      "version": "20.1.14"
+    },
+    {
+      "id": "heads",
+      "name": "Heads",
+      "nativeSourceFile": "Heads-1.20.1-1.1.3.jar",
+      "source": "mods/Heads-1.20.1-1.1.3.jar",
+      "version": "1.1.3"
+    },
+    {
+      "id": "ichunutil",
+      "name": "iChunUtil",
+      "nativeSourceFile": "iChunUtil-1.20.1-Forge-1.0.3.jar",
+      "source": "mods/iChunUtil-1.20.1-Forge-1.0.3.jar",
+      "version": "1.0.3"
+    },
+    {
+      "id": "immediatelyfast",
+      "name": "ImmediatelyFast",
+      "nativeSourceFile": "ImmediatelyFast-Forge-1.5.4+1.20.4.jar",
+      "source": "mods/ImmediatelyFast-Forge-1.5.4+1.20.4.jar",
+      "version": "1.5.4+1.20.4"
+    },
+    {
+      "id": "immersive_paintings",
+      "name": "Immersive Paintings",
+      "nativeSourceFile": "immersive_paintings-0.6.11+1.20.1-forge.jar",
+      "source": "mods/immersive_paintings-0.6.11+1.20.1-forge.jar",
+      "version": "0.6.11+1.20.1"
+    },
+    {
+      "id": "interiors",
+      "name": "Create: Interiors",
+      "nativeSourceFile": "interiors-1.20.1-forge-0.6.0.jar",
+      "source": "mods/interiors-1.20.1-forge-0.6.0.jar",
+      "version": "0.6.0"
+    },
+    {
+      "id": "irisflw",
+      "name": "Oculus Flywheel Compat",
+      "nativeSourceFile": "oculus-flywheel-compat-Forge-2.0.3.jar",
+      "source": "mods/oculus-flywheel-compat-Forge-2.0.3.jar",
+      "version": "2.0.3"
+    },
+    {
+      "id": "itemfilters",
+      "name": "Item Filters",
+      "nativeSourceFile": "item-filters-forge-2001.1.0-build.59.jar",
+      "source": "mods/item-filters-forge-2001.1.0-build.59.jar",
+      "version": "2001.1.0-build.59"
+    },
+    {
+      "id": "jade",
+      "name": "Jade",
+      "nativeSourceFile": "Jade-1.20.1-Forge-11.13.2.jar",
+      "source": "mods/Jade-1.20.1-Forge-11.13.2.jar",
+      "version": "11.13.2+forge"
+    },
+    {
+      "id": "jei",
+      "name": "Just Enough Items",
+      "nativeSourceFile": "jei-1.20.1-forge-15.20.0.130.jar",
+      "source": "mods/jei-1.20.1-forge-15.20.0.130.jar",
+      "version": "15.20.0.130"
+    },
+    {
+      "id": "konkrete",
+      "name": "Konkrete",
+      "nativeSourceFile": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+      "source": "mods/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+      "version": "1.8.0"
+    },
+    {
+      "id": "kotlinforforge",
+      "name": "Kotlin For Forge",
+      "nativeSourceFile": "kffmod-4.12.0.jar",
+      "source": "mods/kotlinforforge-4.12.0-all.jar",
+      "version": "4.12.0"
+    },
+    {
+      "id": "krypton",
+      "name": "Krypton Reforged",
+      "nativeSourceFile": "KryptonReforged-0.2.3.jar",
+      "source": "mods/KryptonReforged-0.2.3.jar",
+      "version": "0.2.3"
+    },
+    {
+      "id": "kubejs",
+      "name": "KubeJS",
+      "nativeSourceFile": "kubejs-forge-2001.6.5-build.26.jar",
+      "source": "mods/kubejs-forge-2001.6.5-build.26.jar",
+      "version": "2001.6.5-build.26"
+    },
+    {
+      "id": "kuma_api",
+      "name": "KumaAPI",
+      "nativeSourceFile": "kuma-api-forge-20.1.12+1.20.1.jar",
+      "source": "mods/balm-forge-1.20.1-7.3.38-all.jar",
+      "version": "20.1.12"
+    },
+    {
+      "id": "lootjs",
+      "name": "LootJS",
+      "nativeSourceFile": "lootjs-forge-1.20.1-2.13.1.jar",
+      "source": "mods/lootjs-forge-1.20.1-2.13.1.jar",
+      "version": "1.20.1-2.13.1"
+    },
+    {
+      "id": "mcwbridges",
+      "name": "Macaw's Bridges",
+      "nativeSourceFile": "mcw-bridges-3.1.2-mc1.20.1forge.jar",
+      "source": "mods/mcw-bridges-3.1.2-mc1.20.1forge.jar",
+      "version": "3.1.2"
+    },
+    {
+      "id": "mcwdoors",
+      "name": "Macaw's Doors",
+      "nativeSourceFile": "mcw-doors-1.1.5-mc1.20.1forge.jar",
+      "source": "mods/mcw-doors-1.1.5-mc1.20.1forge.jar",
+      "version": "1.1.5"
+    },
+    {
+      "id": "mcwfences",
+      "name": "Macaw's Fences and Walls",
+      "nativeSourceFile": "mcw-mcwfences-1.2.1-mc1.20.1forge.jar",
+      "source": "mods/mcw-mcwfences-1.2.1-mc1.20.1forge.jar",
+      "version": "1.2.1"
+    },
+    {
+      "id": "mcwfurnitures",
+      "name": "Macaw's Furniture",
+      "nativeSourceFile": "mcw-furniture-3.4.1-mc1.20.1forge.jar",
+      "source": "mods/mcw-furniture-3.4.1-mc1.20.1forge.jar",
+      "version": "3.4.1"
+    },
+    {
+      "id": "mcwlights",
+      "name": "Macaw's Lights and Lamps",
+      "nativeSourceFile": "mcw-lights-1.1.5-mc1.20.1forge.jar",
+      "source": "mods/mcw-lights-1.1.5-mc1.20.1forge.jar",
+      "version": "1.1.5"
+    },
+    {
+      "id": "mcwpaths",
+      "name": "Macaw's Paths and Pavings",
+      "nativeSourceFile": "mcw-mcwpaths-1.1.1-mc1.20.1forge.jar",
+      "source": "mods/mcw-mcwpaths-1.1.1-mc1.20.1forge.jar",
+      "version": "1.1.1"
+    },
+    {
+      "id": "mcwroofs",
+      "name": "Macaw's Roofs",
+      "nativeSourceFile": "mcw-roofs-2.3.2-mc1.20.1forge.jar",
+      "source": "mods/mcw-roofs-2.3.2-mc1.20.1forge.jar",
+      "version": "2.3.2"
+    },
+    {
+      "id": "mcwstairs",
+      "name": "Macaw's Stairs and Balconies",
+      "nativeSourceFile": "mcw-mcwstairs-1.0.2-mc1.20.1forge.jar",
+      "source": "mods/mcw-mcwstairs-1.0.2-mc1.20.1forge.jar",
+      "version": "1.0.2"
+    },
+    {
+      "id": "mcwtrpdoors",
+      "name": "Macaw's Trapdoors",
+      "nativeSourceFile": "mcw-trapdoors-1.1.5-mc1.20.1forge.jar",
+      "source": "mods/mcw-trapdoors-1.1.5-mc1.20.1forge.jar",
+      "version": "1.1.5"
+    },
+    {
+      "id": "mcwwindows",
+      "name": "Macaw's Windows",
+      "nativeSourceFile": "mcw-mcwwindows-2.4.2-mc1.20.1forge.jar",
+      "source": "mods/mcw-mcwwindows-2.4.2-mc1.20.1forge.jar",
+      "version": "2.4.2"
+    },
+    {
+      "id": "mekanism",
+      "name": "Mekanism",
+      "nativeSourceFile": "Mekanism-1.20.1-10.4.16.80.jar",
+      "source": "mods/Mekanism-1.20.1-10.4.16.80.jar",
+      "version": "10.4.16"
+    },
+    {
+      "id": "mekanismgenerators",
+      "name": "Mekanism: Generators",
+      "nativeSourceFile": "MekanismGenerators-1.20.1-10.4.16.80.jar",
+      "source": "mods/MekanismGenerators-1.20.1-10.4.16.80.jar",
+      "version": "10.4.16"
+    },
+    {
+      "id": "mekanismtools",
+      "name": "Mekanism: Tools",
+      "nativeSourceFile": "MekanismTools-1.20.1-10.4.16.80.jar",
+      "source": "mods/MekanismTools-1.20.1-10.4.16.80.jar",
+      "version": "10.4.16"
+    },
+    {
+      "id": "melody",
+      "name": "Melody",
+      "nativeSourceFile": "melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+      "source": "mods/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+      "version": "1.0.2"
+    },
+    {
+      "id": "mixinsquared",
+      "name": "MixinSquared",
+      "nativeSourceFile": "mixinsquared-forge-0.1.1.jar",
+      "sourceCandidates": [
+        "mods/moonlight-1.20-2.16.32-forge.jar",
+        "mods/supplementaries-1.20-3.1.43-forge.jar"
+      ],
+      "version": "0.1.1"
+    },
+    {
+      "id": "modernfix",
+      "name": "ModernFix",
+      "nativeSourceFile": "modernfix-forge-5.27.25+mc1.20.1.jar",
+      "source": "mods/modernfix-forge-5.27.25+mc1.20.1.jar",
+      "version": "5.27.25+mc1.20.1"
+    },
+    {
+      "id": "modonomicon",
+      "name": "Modonomicon",
+      "nativeSourceFile": "modonomicon-1.20.1-forge-1.79.3.jar",
+      "source": "mods/modonomicon-1.20.1-forge-1.79.3.jar",
+      "version": "1.79.3"
+    },
+    {
+      "id": "moonlight",
+      "name": "Moonlight Library",
+      "nativeSourceFile": "moonlight-1.20-2.16.32-forge.jar",
+      "source": "mods/moonlight-1.20-2.16.32-forge.jar",
+      "version": "1.20-2.16.32"
+    },
+    {
+      "id": "moreoverlays",
+      "name": "More Overlays Updated",
+      "nativeSourceFile": "moreoverlays-1.22.7-mc1.20.2.jar",
+      "source": "mods/moreoverlays-1.22.7-mc1.20.2.jar",
+      "version": "1.22.7-mc1.20.2"
+    },
+    {
+      "id": "mousetweaks",
+      "name": "Mouse Tweaks",
+      "nativeSourceFile": "MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+      "source": "mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+      "version": "2.25.1"
+    },
+    {
+      "id": "mr_limesplatus_ending",
+      "name": "True Ending: Ender Dragon Overhaul",
+      "nativeSourceFile": "tru.e-ending-v1.1.0c.jar",
+      "source": "mods/tru.e-ending-v1.1.0c.jar",
+      "version": "1-v1.1.0c"
+    },
+    {
+      "id": "mysticalagriculture",
+      "name": "Mystical Agriculture",
+      "nativeSourceFile": "MysticalAgriculture-1.20.1-7.0.24.jar",
+      "source": "mods/MysticalAgriculture-1.20.1-7.0.24.jar",
+      "version": "7.0.24"
+    },
+    {
+      "id": "mysticalcustomization",
+      "name": "Mystical Customization",
+      "nativeSourceFile": "MysticalCustomization-1.20.1-5.0.3.jar",
+      "source": "mods/MysticalCustomization-1.20.1-5.0.3.jar",
+      "version": "5.0.3"
+    },
+    {
+      "id": "narenderfix",
+      "name": "Nature's Aura Render Fix",
+      "nativeSourceFile": "narenderfix-1.20.1-1.0.0.jar",
+      "source": "mods/narenderfix-1.20.1-1.0.0.jar",
+      "version": "1.0.0"
+    },
+    {
+      "id": "naturesaura",
+      "name": "NaturesAura",
+      "nativeSourceFile": "NaturesAura-39.4.jar",
+      "source": "mods/NaturesAura-39.4.jar",
+      "version": "39.4"
+    },
+    {
+      "id": "nethersdelight",
+      "name": "Nether's Delight",
+      "nativeSourceFile": "nethersdelight-1.20.1-4.0.jar",
+      "source": "mods/nethersdelight-1.20.1-4.0.jar",
+      "version": "1.20.1-4.0"
+    },
+    {
+      "id": "nochatreports",
+      "name": "No Chat Reports",
+      "nativeSourceFile": "NoChatReports-FORGE-1.20.1-v2.2.2.jar",
+      "source": "mods/NoChatReports-FORGE-1.20.1-v2.2.2.jar",
+      "version": "1.20.1-v2.2.2"
+    },
+    {
+      "id": "nopiglinportals",
+      "name": "No More Piglin Portal Spawning",
+      "nativeSourceFile": "nopiglinportals-1.4.jar",
+      "source": "mods/nopiglinportals-1.4.jar",
+      "version": "1.4"
+    },
+    {
+      "id": "not_enough_glyphs",
+      "name": "Not Enough Glyphs",
+      "nativeSourceFile": "not_enough_glyphs-1.20.1-3.2.1.1.jar",
+      "source": "mods/not_enough_glyphs-1.20.1-3.2.1.1.jar",
+      "version": "1.20.1-3.2.1.1"
+    },
+    {
+      "id": "oculus",
+      "name": "Oculus",
+      "nativeSourceFile": "oculus-mc1.20.1-1.8.0.jar",
+      "source": "mods/oculus-mc1.20.1-1.8.0.jar",
+      "version": "1.8.0"
+    },
+    {
+      "id": "openpartiesandclaims",
+      "name": "Open Parties and Claims",
+      "nativeSourceFile": "open-parties-and-claims-forge-1.20.1-0.26.3.jar",
+      "source": "mods/open-parties-and-claims-forge-1.20.1-0.26.3.jar",
+      "version": "0.26.3"
+    },
+    {
+      "id": "packetfixer",
+      "name": "PacketFixer",
+      "nativeSourceFile": "packetfixer-3.3.2-1.18-1.20.4-merged.jar",
+      "source": "mods/packetfixer-3.3.2-1.18-1.20.4-merged.jar",
+      "version": "3.3.2"
+    },
+    {
+      "id": "patchful",
+      "name": "Patchful",
+      "nativeSourceFile": "patchful-1.20.1-1.0.0.jar",
+      "source": "mods/patchful-1.20.1-1.0.0.jar",
+      "version": "1.0.0"
+    },
+    {
+      "id": "patchouli",
+      "name": "Patchouli",
+      "nativeSourceFile": "Patchouli-1.20.1-85-FORGE.jar",
+      "source": "mods/Patchouli-1.20.1-85-FORGE.jar",
+      "version": "1.20.1-85-FORGE"
+    },
+    {
+      "id": "polylib",
+      "name": "PolyLib",
+      "nativeSourceFile": "polylib-forge-2000.0.3-build.143.jar",
+      "source": "mods/polylib-forge-2000.0.3-build.143.jar",
+      "version": "2000.0.3-build.143"
+    },
+    {
+      "id": "polymorph",
+      "name": "Polymorph",
+      "nativeSourceFile": "polymorph-forge-0.49.10+1.20.1.jar",
+      "source": "mods/polymorph-forge-0.49.10+1.20.1.jar",
+      "version": "0.49.10+1.20.1"
+    },
+    {
+      "id": "ponder",
+      "name": "Ponder",
+      "nativeSourceFile": "Ponder-Forge-1.20.1-1.0.91.jar",
+      "source": "mods/create-1.20.1-6.0.8.jar",
+      "version": "1.0.91"
+    },
+    {
+      "id": "presencefootsteps",
+      "name": "Presence Footsteps (Forge)",
+      "nativeSourceFile": "PresenceFootsteps-1.20.1-1.9.1-beta.1.jar",
+      "source": "mods/PresenceFootsteps-1.20.1-1.9.1-beta.1.jar",
+      "version": "1.20.1-1.9.1-beta.1"
+    },
+    {
+      "id": "quark",
+      "name": "Quark",
+      "nativeSourceFile": "Quark-4.0-462.jar",
+      "source": "mods/Quark-4.0-462.jar",
+      "version": "4.0-462"
+    },
+    {
+      "id": "rechiseled",
+      "name": "Rechiseled",
+      "nativeSourceFile": "rechiseled-1.2.4-forge-mc1.20.1.jar",
+      "source": "mods/rechiseled-1.2.4-forge-mc1.20.1.jar",
+      "version": "1.2.4"
+    },
+    {
+      "id": "rechiseled_chipped",
+      "name": "Rechiseled: Chipped",
+      "nativeSourceFile": "rechiseled_chipped-2.0-1.20.1.jar",
+      "source": "mods/rechiseled_chipped-2.0-1.20.1.jar",
+      "version": "1.2"
+    },
+    {
+      "id": "rechiseledae2",
+      "name": "Rechiseled: AE2",
+      "nativeSourceFile": "rechiseledae2-forge-1.20-1.20.1-1.1.0.jar",
+      "source": "mods/rechiseledae2-forge-1.20-1.20.1-1.1.0.jar",
+      "version": "1.1.0"
+    },
+    {
+      "id": "rechiseledcreate",
+      "name": "Rechiseled: Create",
+      "nativeSourceFile": "rechiseledcreate-1.1.0-forge-mc1.20.jar",
+      "source": "mods/rechiseledcreate-1.1.0-forge-mc1.20.jar",
+      "version": "1.1.0"
+    },
+    {
+      "id": "reclamation_util",
+      "name": "reclamation_util",
+      "nativeSourceFile": "reclamation_util-1.20.1-1.0.27.jar",
+      "source": "mods/reclamation_util-1.20.1-1.0.27.jar",
+      "version": "1.0.27"
+    },
+    {
+      "id": "resourcefulconfig",
+      "name": "Resourcefulconfig",
+      "nativeSourceFile": "resourcefulconfig-forge-1.20.1-2.1.3.jar",
+      "source": "mods/resourcefulconfig-forge-1.20.1-2.1.3.jar",
+      "version": "2.1.3"
+    },
+    {
+      "id": "resourcefullib",
+      "name": "Resourceful Lib",
+      "nativeSourceFile": "resourcefullib-forge-1.20.1-2.1.29.jar",
+      "source": "mods/resourcefullib-forge-1.20.1-2.1.29.jar",
+      "version": "2.1.29"
+    },
+    {
+      "id": "rhino",
+      "name": "Rhino",
+      "nativeSourceFile": "rhino-forge-2001.2.3-build.10.jar",
+      "source": "mods/rhino-forge-2001.2.3-build.10.jar",
+      "version": "2001.2.3-build.10"
+    },
+    {
+      "id": "rubidium",
+      "name": "Rubidium (Embeddium)",
+      "nativeSourceFile": "embeddium-0.3.31+mc1.20.1.jar",
+      "source": "mods/embeddium-0.3.31+mc1.20.1.jar",
+      "version": "0.7.1"
+    },
+    {
+      "id": "searchables",
+      "name": "Searchables",
+      "nativeSourceFile": "Searchables-forge-1.20.1-1.0.3.jar",
+      "source": "mods/Searchables-forge-1.20.1-1.0.3.jar",
+      "version": "1.0.3"
+    },
+    {
+      "id": "sebastrnlib",
+      "name": "Sebastrn Lib",
+      "nativeSourceFile": "sebastrnlib-4.0.0.jar",
+      "source": "mods/sebastrnlib-4.0.0.jar",
+      "version": "4.0.0"
+    },
+    {
+      "id": "simplerpc",
+      "name": "Simple RPC",
+      "nativeSourceFile": "SimpleRPC-4.1.0+hotfix.1.jar",
+      "source": "mods/SimpleRPC-4.1.0+hotfix.1.jar",
+      "version": "4.1.0+hotfix.1"
+    },
+    {
+      "id": "simplylight",
+      "name": "Simply Light",
+      "nativeSourceFile": "simplylight-1.20.1-1.4.6-build.50.jar",
+      "source": "mods/simplylight-1.20.1-1.4.6-build.50.jar",
+      "version": "1.20.1-1.4.6-build.50"
+    },
+    {
+      "id": "smartbrainlib",
+      "name": "SmartBrainLib",
+      "nativeSourceFile": "SmartBrainLib-forge-1.20.1-1.15.jar",
+      "source": "mods/SmartBrainLib-forge-1.20.1-1.15.jar",
+      "version": "1.15"
+    },
+    {
+      "id": "sophisticatedbackpacks",
+      "name": "Sophisticated Backpacks",
+      "nativeSourceFile": "sophisticatedbackpacks-1.20.1-3.24.40.1745.jar",
+      "source": "mods/sophisticatedbackpacks-1.20.1-3.24.40.1745.jar",
+      "version": "3.24.40.1745"
+    },
+    {
+      "id": "sophisticatedcore",
+      "name": "Sophisticated Core",
+      "nativeSourceFile": "sophisticatedcore-1.20.1-1.3.36.1854.jar",
+      "source": "mods/sophisticatedcore-1.20.1-1.3.36.1854.jar",
+      "version": "1.3.36.1854"
+    },
+    {
+      "id": "sophisticatedstorage",
+      "name": "Sophisticated Storage",
+      "nativeSourceFile": "sophisticatedstorage-1.20.1-1.4.45.1727.jar",
+      "source": "mods/sophisticatedstorage-1.20.1-1.4.45.1727.jar",
+      "version": "1.4.45.1727"
+    },
+    {
+      "id": "sophisticatedstoragecreateintegration",
+      "name": "Sophisticated Storage Create Integration",
+      "nativeSourceFile": "sophisticatedstoragecreateintegration-1.20.1-0.1.19.125.jar",
+      "source": "mods/sophisticatedstoragecreateintegration-1.20.1-0.1.19.125.jar",
+      "version": "0.1.19.125"
+    },
+    {
+      "id": "sound_physics_remastered",
+      "name": "Sound Physics Remastered",
+      "nativeSourceFile": "sound-physics-remastered-forge-1.20.1-1.5.1.jar",
+      "source": "mods/sound-physics-remastered-forge-1.20.1-1.5.1.jar",
+      "version": "1.20.1-1.5.1"
+    },
+    {
+      "id": "spectrelib",
+      "name": "SpectreLib",
+      "nativeSourceFile": "spectrelib-forge-0.13.17+1.20.1.jar",
+      "source": "mods/polymorph-forge-0.49.10+1.20.1.jar",
+      "version": "0.13.17+1.20.1"
+    },
+    {
+      "id": "stateobserver",
+      "name": "StateObserver",
+      "nativeSourceFile": "stateobserver-forge-1.20.1-1.4.3.jar",
+      "source": "mods/stateobserver-forge-1.20.1-1.4.3.jar",
+      "version": "1.4.3"
+    },
+    {
+      "id": "storagedrawers",
+      "name": "Storage Drawers",
+      "nativeSourceFile": "StorageDrawers-forge-1.20.1-12.14.3.jar",
+      "source": "mods/StorageDrawers-forge-1.20.1-12.14.3.jar",
+      "version": "12.14.3"
+    },
+    {
+      "id": "supermartijn642configlib",
+      "name": "SuperMartijn642's Config Library",
+      "nativeSourceFile": "supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+      "source": "mods/supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+      "version": "1.1.8"
+    },
+    {
+      "id": "supermartijn642corelib",
+      "name": "SuperMartijn642's Core Lib",
+      "nativeSourceFile": "supermartijn642corelib-1.1.21-forge-mc1.20.1.jar",
+      "source": "mods/supermartijn642corelib-1.1.21-forge-mc1.20.1.jar",
+      "version": "1.1.21"
+    },
+    {
+      "id": "supplementaries",
+      "name": "Supplementaries",
+      "nativeSourceFile": "supplementaries-1.20-3.1.43-forge.jar",
+      "source": "mods/supplementaries-1.20-3.1.43-forge.jar",
+      "version": "1.20-3.1.43"
+    },
+    {
+      "id": "theurgy",
+      "name": "Theurgy",
+      "nativeSourceFile": "theurgy-1.20.1-1.28.0.jar",
+      "source": "mods/theurgy-1.20.1-1.28.0.jar",
+      "version": "1.28.0"
+    },
+    {
+      "id": "theurgy_kubejs",
+      "name": "Theurgy KubeJS",
+      "nativeSourceFile": "theurgy_kubejs-1.20.1-1.1.0.jar",
+      "source": "mods/theurgy_kubejs-1.20.1-1.1.0.jar",
+      "version": "1.1.0"
+    },
+    {
+      "id": "tomeofblood",
+      "name": "Tome of Blood: Rebirth",
+      "nativeSourceFile": "tomeofblood-1.20.1-0.4.5.jar",
+      "source": "mods/tomeofblood-1.20.1-0.4.5.jar",
+      "version": "0.4.5"
+    },
+    {
+      "id": "toomanyglyphs",
+      "name": "Too Many Glyphs",
+      "nativeSourceFile": "toomanyglyphs-1.20.1-2.3.2.12345.jar",
+      "source": "mods/toomanyglyphs-1.20.1-2.3.2.12345.jar",
+      "version": "2.3.2.12345"
+    },
+    {
+      "id": "transition",
+      "name": "TRansition",
+      "nativeSourceFile": "TRansition-1.0.17-1.20.1-forge-SNAPSHOT.jar",
+      "source": "mods/entityculling-forge-1.10.1-mc1.20.1.jar",
+      "version": "1.0.17"
+    },
+    {
+      "id": "trashcans",
+      "name": "Trash Cans",
+      "nativeSourceFile": "trashcans-1.0.18b-forge-mc1.20.jar",
+      "source": "mods/trashcans-1.0.18b-forge-mc1.20.jar",
+      "version": "1.0.18b"
+    },
+    {
+      "id": "trender",
+      "name": "TRender",
+      "nativeSourceFile": "TRender-1.0.12-1.20.1-forge-SNAPSHOT.jar",
+      "source": "mods/entityculling-forge-1.10.1-mc1.20.1.jar",
+      "version": "1.0.12"
+    },
+    {
+      "id": "via_romana",
+      "name": "Via Romana",
+      "nativeSourceFile": "via_romana-forge-1.4.1.jar",
+      "source": "mods/via_romana-forge-1.4.1.jar",
+      "version": "1.4.1"
+    },
+    {
+      "id": "watermedia",
+      "name": "WaterMedia",
+      "nativeSourceFile": "watermedia-3.0.0.16.jar",
+      "source": "mods/watermedia-3.0.0.16.jar",
+      "version": "3.0.0.16"
+    },
+    {
+      "id": "wm_binaries",
+      "name": "WaterMedia: Binaries",
+      "nativeSourceFile": "wm_binaries-3.0.0-rc.1.jar",
+      "source": "mods/wm_binaries-3.0.0-rc.1.jar",
+      "version": "3.0.0-rc.1"
+    },
+    {
+      "id": "xaerolib",
+      "name": "XaeroLib",
+      "nativeSourceFile": "xaerolib-forge-1.20.1-1.1.15.jar",
+      "sourceCandidates": [
+        "mods/xaerominimap-forge-1.20.1-25.3.13.jar",
+        "mods/xaeroworldmap-forge-1.20.1-1.40.16.jar"
+      ],
+      "version": "1.1.15"
+    },
+    {
+      "id": "xaerominimap",
+      "name": "Xaero's Minimap",
+      "nativeSourceFile": "xaerominimap-forge-1.20.1-25.3.13.jar",
+      "source": "mods/xaerominimap-forge-1.20.1-25.3.13.jar",
+      "version": "25.3.13"
+    },
+    {
+      "id": "xaeroworldmap",
+      "name": "Xaero's World Map",
+      "nativeSourceFile": "xaeroworldmap-forge-1.20.1-1.40.16.jar",
+      "source": "mods/xaeroworldmap-forge-1.20.1-1.40.16.jar",
+      "version": "1.40.16"
+    },
+    {
+      "id": "xercamusic",
+      "name": "Music Maker Mod",
+      "nativeSourceFile": "xercamusic-1.20.1-1.0.3.jar",
+      "source": "mods/xercamusic-1.20.1-1.0.3.jar",
+      "version": "1.20.1-1.0.3"
+    },
+    {
+      "id": "xercapaint",
+      "name": "Joy of Painting",
+      "nativeSourceFile": "xercapaint-1.20.1-1.1.0.jar",
+      "source": "mods/xercapaint-1.20.1-1.1.0.jar",
+      "version": "1.20.1-1.1.0"
+    },
+    {
+      "id": "zeta",
+      "name": "Zeta",
+      "nativeSourceFile": "Zeta-1.0-31.jar",
+      "source": "mods/Zeta-1.0-31.jar",
+      "version": "1.0-31"
+    }
+  ],
+  "schemaVersion": 1,
+  "sourceJars": {
+    "mods/AdvancedAE-1.3.5-1.20.1.jar": "ee172c27c28b1d545e1501575021d8f0e5b34ca9dc8a901f7544b0a7fedf0262",
+    "mods/AgriCraft-forge-1.20.1-4.0.6.jar": "7f6cf2bcff0d4dd432c1c8a6c6b201c0114829b456506abdfaa29f67cc89992f",
+    "mods/AkashicTome-1.7-27.jar": "7f34259f2f4a01bf510eae55b308334ce45ba26bd52c5c1a3fa09c5c4c41149e",
+    "mods/Applied-Mekanistics-1.4.3.jar": "e1aafd9c2ae1cab7bb6905ec61718aed41b9f07c05148c9a033e4bb886173d2c",
+    "mods/AttributeFix-Forge-1.20.1-21.0.5.jar": "43ccfd91c1a24d1b3c9d3ccf2dd6a86e9f0c2ba442b111a2238fbff3cf88af11",
+    "mods/Botania-1.20.1-452-FORGE.jar": "2b7bee70243f10a4c2f1352226ee2fdbc02dbceff078545eb1ecee8ad98e2d78",
+    "mods/CTM-1.20.1-1.1.10.jar": "3d7ec24d1cf7f9ea4ef0714a4ebee30d7bb1268e46510d22055033cf6454f7bc",
+    "mods/Clumps-forge-1.20.1-12.0.0.4.jar": "1d1cfcf386f182b1d0bdbe4bd4fc57b96234e8c7468e95e1575ad4dd6433243a",
+    "mods/Controlling-forge-1.20.1-12.0.2.jar": "516308a93824119f6a1ebc75425aa21ee8f8de0c331942793a054ba6d9c24944",
+    "mods/CrashAssistant-forge-1.19-1.20.1-1.11.9.jar": "11674636141f3be9ea22c8b274e58380f33169c2e4f5e9605cf6865f467d90a9",
+    "mods/CraterLib-Forge-1.20-3.1.1.jar": "6f9c3d1a32395486a750e1c7d7c4227901b80da34d00092cd128d8b5da86127a",
+    "mods/Croptopia-1.20.1-FORGE-4.0.1.jar": "bbd35cbdbe8b9d20a70ab79a42781a82f19f51de068861c431879becbce66d28",
+    "mods/Cucumber-1.20.1-7.0.16.jar": "b586a3cd1de362c365f923e5c325273916822f4b3a792c0d9ff6747d7deb2be6",
+    "mods/Ding-1.20.1-Forge-1.5.0.jar": "59c86922faaa753137d6f1bd5922f89d5ed30acd2f4d2c44331eb2f07cdfca1f",
+    "mods/Emojiful-Forge-1.20.1-4.2.0.jar": "5c9a41d6a1744bf65695dbe3473c0f5e60f8616b146afd6353f802b25454efe7",
+    "mods/EpheroLib-1.20.1-FORGE-1.2.0.jar": "8924a015f28348c806e6680addc2d5a8bcaf8439dd51ce48ce3b2f2b0e522407",
+    "mods/ExtendedAE-1.20-1.4.15-forge.jar": "93a201125fc629d6c284784f28e92af995e450ad3137f38057af0716e76f3b56",
+    "mods/ExtremeSoundMuffler-3.51-forge-1.20.1.jar": "7f0a5d7f8bdcabb630c3a9034f815628831e7779475a5e707533fa454cfae83c",
+    "mods/FarmersDelight-1.20.1-1.3.2.jar": "47aed94bb9192c4978fe199f9d3ca5895aeccfbe5b5a0869fdf3aa011c2641f7",
+    "mods/FastLeafDecay-32.jar": "ce48db06bfb5830c147969793771a8f8b5a5774b182543b906bc439efd4e9469",
+    "mods/Glodium-1.20-1.5-forge.jar": "fc419cb5bf511750c0a2da498b925f5122ac4f78617aca6630fe80abf0b6f460",
+    "mods/Heads-1.20.1-1.1.3.jar": "92b0ef6f81899c8ba213020b2e4fa78d47239d7ee3cd8cd2b5a56704c6785777",
+    "mods/ImmediatelyFast-Forge-1.5.4+1.20.4.jar": "da781a31b2c8d8a845ed48c89b6463f1df3f2c655de10d8d4f5bed8123ff68a8",
+    "mods/Jade-1.20.1-Forge-11.13.2.jar": "31949971a7a8d5a5bc95ad9d400cbedfd2d65ffbfb3cea7c0b2fa3b47431a0a5",
+    "mods/KryptonReforged-0.2.3.jar": "9b281428d0e7560b7b6e74cdc808c0ffd7a8e662ba84d1a12a6616b49cedec10",
+    "mods/Mekanism-1.20.1-10.4.16.80.jar": "3b0d191fa4a45e662f9725991d76a30192f30186abb2ba694b873b5f7b9358d2",
+    "mods/MekanismGenerators-1.20.1-10.4.16.80.jar": "be2d5b8553f8638cfabf491002f95cef6acef210f627addb391f5af713502512",
+    "mods/MekanismTools-1.20.1-10.4.16.80.jar": "29089222fd52d272d767d7d2f62b9e6b401b3280a212be096eaedb0fc48aacfb",
+    "mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar": "6c27d16aa715ac6613a55fc463739e2c7b78279e4e4c4cede299e4a2d4a70f08",
+    "mods/MysticalAgriculture-1.20.1-7.0.24.jar": "f9c5f8ac46d354e00b8ec0d5abfc3a224a78d15c521928f788b21bbe7792206d",
+    "mods/MysticalCustomization-1.20.1-5.0.3.jar": "659a2b84b670aec05d79f11749ed23742454f1c0fecd73b0a1068ee0573c84ab",
+    "mods/NaturesAura-39.4.jar": "df1c4dffce5d02695031c674e6fd7b34b8a67cece88400c48e942bb27b8fff6d",
+    "mods/NoChatReports-FORGE-1.20.1-v2.2.2.jar": "ef7fa5096dfd492c3d3ae7228888ca4b92ce07d9b8e302297ceb2ceb1f8d238c",
+    "mods/Patchouli-1.20.1-85-FORGE.jar": "05f7b5d52f6b8f0fd7f8b4822fa07a192d1394d83a264309c9d221d6d4fd21c5",
+    "mods/PresenceFootsteps-1.20.1-1.9.1-beta.1.jar": "447dd543e178a9454ccf3bf0d9d7bd7957b1af6da9d74f2cd3d9b5fbe8548e98",
+    "mods/Quark-4.0-462.jar": "c90b96f049d92825c4a103721988c80d72e5ad380d17be46a0f53e114874c478",
+    "mods/Searchables-forge-1.20.1-1.0.3.jar": "c1a76e93886210574d3f298c0461241fb711e52ac22c7a04d3236840f29e6576",
+    "mods/SimpleRPC-4.1.0+hotfix.1.jar": "57b072f82a8fc4f252f349bae102cd9f7f87003696e6441584a8fea6d2b06e75",
+    "mods/SmartBrainLib-forge-1.20.1-1.15.jar": "665f65f77cc36379a9ae11c09db5d9efa1ad4f8d017edc8f65903ff27cacdb1d",
+    "mods/StorageDrawers-forge-1.20.1-12.14.3.jar": "e7af06fe1c2104ad4c0d8bd2c35388cdf1f9e12e637515c9c24915c656731d30",
+    "mods/Zeta-1.0-31.jar": "cd1786902a79434f8fd762d741019d9c8a79725fef7e30a89c153c934e1e6a9e",
+    "mods/ae2wtlib-15.3.3-forge.jar": "39e5cede37d5c6a07592d6c1e83398791e037f3d434bc44f7460cd085a4de5f4",
+    "mods/antiblocksrechiseled-0.4.8.jar": "b0fdc2d238b27675bb897e94e48e23b96a06be5356618ee0ef290a034981b31e",
+    "mods/appleskin-forge-mc1.20.1-2.5.1.jar": "e12419e43e3babc810af289403c5cd96bd7f09809b389acc6bb2f122b4b2a426",
+    "mods/applied-botanics-forge-1.5.2.jar": "b6003288ca4e41e4def0390665167ece13aaf548bf6da8941084221d0cf8d5c2",
+    "mods/appliedcooking-4.0.0.jar": "34798a53efbccae606eeeaacf59f7799eda7f80ccb06fddab6f86e92f6ad052f",
+    "mods/appliedenergistics2-forge-15.4.10.jar": "fbfee05c6674cb6b00fe425e945ca4818d41eb34069b60dcb4a36221a0390fcc",
+    "mods/architectury-9.2.14-forge.jar": "218b471d0b8a1f6cda14cfc1beb9eeb0df54304500acc6c5613d9b88ec65d9af",
+    "mods/ars_artifice-1.20.1-2.0.4.jar": "26b637014450cd5c246af4c6b366aadae2f5af1c9dbfb4aa21e283d3395d3071",
+    "mods/ars_creo-1.20.1-4.3.0.jar": "31964f41303ee2265ac4dbed66c6af20c11bd01637016d13e8de091e87fb78f7",
+    "mods/ars_elemental-1.20.1-0.6.7.9.jar": "57cb38746f3751e902bdfbe9856d3e80d9badb7c9a52bc2806ee84be767817d8",
+    "mods/ars_nouveau-1.20.1-4.12.7-all.jar": "1f1debc282a0c379c1141f2840ea294eede6f6b544c589663f40bbe17b59a1af",
+    "mods/arseng-1.2.0.jar": "02850730d3535afeb19d94311c31693ee1986d07795934e4dc50282f7956e827",
+    "mods/athena-forge-1.20.1-3.1.2.jar": "64eec9cffb8847a459536096ac396b135ffb07c7d9d13c6a47d9cd7b251276ab",
+    "mods/baguettelib-1.20.1-Forge-1.1.6.jar": "2e61c531121902499b558aa22b9860a5a1d7aaa26f9b5ea727d8a758d808470f",
+    "mods/balm-forge-1.20.1-7.3.38-all.jar": "cbe8008218f0f574bc1f78b532cac5f978c33bf36ae2e14805340eab445fdb08",
+    "mods/bloodmagic-1.20.1-3.3.7-49.jar": "e88af6d512e522a47286fc87015ed290c5d41be7a51c3ef59a391e85bc1fd4a0",
+    "mods/buildinggadgets2-1.0.8.jar": "59efb399a4acdb69a01a970b1f1e3c5584495aabc726ff40857ab4aed9372c83",
+    "mods/chipped-forge-1.20.1-3.0.7.jar": "300e02535342b710fb34409821de9d097b0d8b17f56a57a17d75d05c4c1c5b63",
+    "mods/chisel_chipped_integration-v1.1.6-1.20.1.jar": "a15b8b33746bd9e688496a7df03713e2fb27ce875e572ca306445ff91c4f8e51",
+    "mods/cleanswing-1.20-1.8.jar": "beb67f1af48b8ba77a8de1a48ea08d97a520a32b490bb4fd9a0da1dfd485a699",
+    "mods/cloth-config-11.1.136-forge.jar": "1e895e85cf5b1e1905ef3178ec155c8badfe22a1577b92c09143a5aa1f4ce0f2",
+    "mods/comforts-forge-6.4.0+1.20.1.jar": "56398103e0e3821c98f21a5b556d57deb0686b9f50868b4278ecb73cc9d2f42c",
+    "mods/complicated_bees-1.20.1-3.4.1.jar": "20f30e46caf3811197606d6100e8746eb1d5fbd91c2bc60e960cfd8c4fe40efb",
+    "mods/constructionwand-1.20.1-2.11.jar": "b55ca6f0e734bad848adb06949675136f1d05cb4fb3efdde084c9842c40e1eec",
+    "mods/cookingforblockheads-forge-1.20.1-16.0.15.jar": "afe0e99f9929b29abed3ee9530c834255d9ec723d3790f2f2e6f3c6f60799cba",
+    "mods/copycats-3.0.7+mc.1.20.1-forge.jar": "bc59446d8aff50924f805286927a1bda3df16c6f4e6f893865f410e581b62f1a",
+    "mods/craftingtweaks-forge-1.20.1-18.2.9.jar": "1cc83c8c0bee73a2ffa3428ce28e3c17d7f95e26e1a820d8bd7270e0931f8974",
+    "mods/create-1.20.1-6.0.8.jar": "6fbb910c367dbce8e4fc7e5bf64b6edd4de980906ed00af8e47e4af843c0d9b0",
+    "mods/create_central_kitchen-1.20.1-for-create-6.0.6-1.4.3b.jar": "1ed474df7dcd5a3847953a232acb981b49008273cc721737f3db4cc41d24cb89",
+    "mods/createdeco-2.0.3-1.20.1-forge.jar": "7d6dd0094d18d6bab64fcd7de680ea736015d1a1ffc472d3fe03122bc7aa0864",
+    "mods/createstockbridge-1.20-0.2.0.jar": "5eda896c93997d5920c8721f52c577c5195c25b0cb043840ed181dec2a4ecab7",
+    "mods/cupboard-1.20.1-3.7.jar": "7c6069d42e3693dc4f80d06632f008fffe6f2507902dfca6c02bf035776ccaf3",
+    "mods/curios-forge-5.14.1+1.20.1.jar": "1e817919a35b37cf30524aaec73f0ca5130452f23f168f844854df282eb8e51f",
+    "mods/embeddium-0.3.31+mc1.20.1.jar": "eed3d1325f2acc2fd4e69bb495e5ccb91d962126ac5330f0582ebc2a3daf47fb",
+    "mods/embersrekindled-1.20.1-1.4.7.jar": "d119455e74a8976ad3533a2c2b25fe942df8a27a57fcf35da1cd05177123477a",
+    "mods/emi-1.1.24+1.20.1+forge.jar": "92784dcf5222d72983a420c90f2e9240468ee0fece96f757c82d7884b6cbdb72",
+    "mods/emi_loot-0.7.9+1.20.1+forge.jar": "c9910f6cd256a68c7eabec8ba24c39b71595856c2e80e44001484b0702563034",
+    "mods/enchanted-forge-1.20.1-3.1.13.jar": "9f4ea33f5de9fde9ffe030216385f2e3bae587451efbdaf9e7f4fe73feae666d",
+    "mods/entityculling-forge-1.10.1-mc1.20.1.jar": "1231bb17e3db1a7d4e98800bb070ec1e7e7c016b934e1eb11c1cc63d11d0aa2d",
+    "mods/experimentalsettingsdisabler-1.20.1-3.0.jar": "2328664536f9fd48b4b924fc8e62e4dd62d436a7d0ae941bad797414e38d4db3",
+    "mods/exposure-1.20.1-1.7.16-forge.jar": "55a8351bffc41b0d4a520d004c05561d4d76c1a1128f364bd4a44251c00f1de9",
+    "mods/fancymenu_forge_3.9.3_MC_1.20.1.jar": "048a0cd7c15d8e4a0fda2022b6404e44718cd2c7f34b8f4fde7e1ca7e698bc9a",
+    "mods/farmers_croptopia-1.20.1-3.2.1.jar": "5b5feebde18520fc409faf61f100f01cbdfc0b83929102f6184b8bea90910409",
+    "mods/fastasyncworldsave-1.20.1-2.6.jar": "31283f2d8ad9462cb9619cc1bd2e61afa24939b91dcf46c87d5495e3c61207f7",
+    "mods/ferritecore-6.0.1-forge.jar": "9c2c9396a49e796d88497758caa4637d2bcbb433c318e2dd9cebcffbaf0f6c54",
+    "mods/ftb-library-forge-2001.2.12.jar": "f09335944fff8ca3ef37a40e0b125ffb6707759ede258c73f9ce9bac61bfbf96",
+    "mods/ftb-quests-forge-2001.4.22.jar": "9ea9d159a78a2724cfe0457b024680fdb52a2126eff9cfa5280a30578f647a68",
+    "mods/ftb-teams-forge-2001.3.2.jar": "b1cb4d82ea9f137a87e12a7aaf3329619294b56f7d70337dfd557a76e10b6e07",
+    "mods/ftb-xmod-compat-forge-2.1.3.jar": "16a8eb9de88d5c33d29cb076cc39dfb337b2c54348e1ef1efe9dd60cf85e5f72",
+    "mods/ftbbackups2-forge-1.20-1.0.23.jar": "19cea280a56e533b9669d4f866aef38ebe54f6d8627efe6798016e17b6b4afda",
+    "mods/ftbquestlocalizer-1.20.1-forge-3.2.0.jar": "b1b7fe627c19779f6e5657b3a1fe39f2f429822c05c8ddefefadd94dd2ad0d22",
+    "mods/fusion-1.2.12-forge-mc1.20.1.jar": "5cb039922e08ae6b8705d50e484a8759579025fb4f48413fa62d2056505fb45e",
+    "mods/fzzy_config-0.7.6+1.20.1+forge.jar": "d39cd5d6b23b86468937e306776dc70faba900072c7e359ce9348d8a3c26982e",
+    "mods/geckolib-forge-1.20.1-4.8.3.jar": "8b90e11871a58b63816e99c529e6c932bc88e6beb3fec97ad618e22217df3250",
+    "mods/gpumemleakfix-1.20.1-1.8.jar": "a7019442f1b07b1a4a875fe404d04d162905cc7fd42e0b3c843aefc7b39efc46",
+    "mods/gravestone-forge-1.20.1-1.0.35.jar": "3d31bd224bc1f9055c502cf675416ae8046dbc15bf2db6627e26a032da437e85",
+    "mods/gravestonecurioscompat-1.20.1-Forge-4.0.2.jar": "d9e5e5fb661e1efdd62fc5a7e6bd5a32667447aa74140e40389095401bb8ba93",
+    "mods/guideme-20.1.14.jar": "a0ba5a0288dab6e413f1456de8dd162f9479146ee681569837f6d6b17930a0e2",
+    "mods/iChunUtil-1.20.1-Forge-1.0.3.jar": "31ee649f34ff9c7a51d4d1b80f438a49a0387bd544b0a5cdc96e039d90f134c5",
+    "mods/immersive_paintings-0.6.11+1.20.1-forge.jar": "623adaf2fdb2d2a05cca9706d4afe79e99b05874dd91b94c20a8a92ce4643b1b",
+    "mods/interiors-1.20.1-forge-0.6.0.jar": "22d256df6dc6249e3421c0cffd1aa4454434fe840401171d288baa2da7dfd441",
+    "mods/item-filters-forge-2001.1.0-build.59.jar": "99417b1342ba51ccb9611b17ab01fc1299971aa34e8f9d2a8b3c63df5713eb49",
+    "mods/jei-1.20.1-forge-15.20.0.130.jar": "36d3dfb2214b9dca38c447fd971dd2dedc5f69719a5aca6ffcef69b2840ece0a",
+    "mods/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar": "e78686b92c3761ec26eb9d3c53efdd3d6ca77981cbd3723995e1163b7103ae0b",
+    "mods/kotlinforforge-4.12.0-all.jar": "6a66c6a68ec09f8717cdbf06883394f0ee24d7cd826b7134a0f81839e8e720ae",
+    "mods/kubejs-forge-2001.6.5-build.26.jar": "1769312192fbf9d72f45054ba61130523bfb471b5f480a4bff8c210ec09400bb",
+    "mods/lootjs-forge-1.20.1-2.13.1.jar": "c1672330605a691b8a91b3a4d252f2d3a280f252874f1fc5fdd7cad07d13b719",
+    "mods/mcw-bridges-3.1.2-mc1.20.1forge.jar": "95c5aae4e82758d5c0ca2ba61c4cf72e9240e53f68befe8104c68fa9f9b19eed",
+    "mods/mcw-doors-1.1.5-mc1.20.1forge.jar": "e975bdd5ed1d680e37fb2a6cda4f4eb5c42a837fa24b0cddabe7688df42c10af",
+    "mods/mcw-furniture-3.4.1-mc1.20.1forge.jar": "9f068315ac5ae7c4b76a6ac0679cde9be59d5cbf37488a477f13b95fe1cbc37d",
+    "mods/mcw-lights-1.1.5-mc1.20.1forge.jar": "174437555ff8b3938b5af8fa3f6efcc528fc101e90e35b89570323e4a3726f0a",
+    "mods/mcw-mcwfences-1.2.1-mc1.20.1forge.jar": "10deb617769e9674a767a3991af4c46afd081b5de42cee326f71ef2700a14313",
+    "mods/mcw-mcwpaths-1.1.1-mc1.20.1forge.jar": "9a809897462ca11c1920748b0fdf4555f05ef3650db1bd82016906795d068c9f",
+    "mods/mcw-mcwstairs-1.0.2-mc1.20.1forge.jar": "c952bf7b9eec89071d05da79f73459565847c65187b2f342fa0933c46605bfea",
+    "mods/mcw-mcwwindows-2.4.2-mc1.20.1forge.jar": "7674d829d5a38d91ca68061e087fded92e976e3e461edcf75117e37a257e8f10",
+    "mods/mcw-roofs-2.3.2-mc1.20.1forge.jar": "3554317ad8d082a3d9fb5d8b387f5206e545323b4387ed1b93b7b3bf889def3f",
+    "mods/mcw-trapdoors-1.1.5-mc1.20.1forge.jar": "c2abff58334d79ea61278c6dffd941a4f4ceb5cffadf889359fd45a003738217",
+    "mods/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar": "933e2a7e79c4594f965f7f7d00b1f28a98ec2a180ad8f9f90310a266fe5cf5d8",
+    "mods/modernfix-forge-5.27.25+mc1.20.1.jar": "1b0dc9c72c67e0715166e91f7f76e104dc54a31b2ed0e907feadc8bd4211ed98",
+    "mods/modonomicon-1.20.1-forge-1.79.3.jar": "6a95475102948bff7046b53bc3882ebfdfcf8f0d7a5d14fe612e63680cfe18a3",
+    "mods/moonlight-1.20-2.16.32-forge.jar": "abe6ef01c6d950789f55ee06b3767aa636655d41cd55f7ca2af3a34e8752d155",
+    "mods/moreoverlays-1.22.7-mc1.20.2.jar": "1cf063baf7eed2f41066a00cb5520d0ceed4104118990d508591c8a4c9781980",
+    "mods/narenderfix-1.20.1-1.0.0.jar": "f81edbc811ffdc0d5d429e6bd449fa45a678c4695a278a1e1cbcded80e0a3c59",
+    "mods/nethersdelight-1.20.1-4.0.jar": "28b072bc5c09ee889468546676c9bf0268eaa415865704bbeeb33f6a37005a30",
+    "mods/nopiglinportals-1.4.jar": "bef02da19ecb3e5691f1238c5c7e35d2e6b89e09360fab32c1a0121693eb2c05",
+    "mods/not_enough_glyphs-1.20.1-3.2.1.1.jar": "db6e29a46abc6b47c69769213e92b6c23562c4b31a281661aef54d3420acfaa4",
+    "mods/oculus-flywheel-compat-Forge-2.0.3.jar": "f66f523553a14b07965f007c11dcb8624d4117025e4ce1ffd470171c6fda340e",
+    "mods/oculus-mc1.20.1-1.8.0.jar": "0945df0cba0f62b3901dd80c3268e5311b770ece78c78037a45db12ac0425fef",
+    "mods/open-parties-and-claims-forge-1.20.1-0.26.3.jar": "acb9c5c936aab00fe29beab9c7e3a558fccd429aafead9a4d92f4b710e7563fa",
+    "mods/packetfixer-3.3.2-1.18-1.20.4-merged.jar": "12f96ecb8e61e0b3d3f0ca5701f479904904501dd251aa7bb60205afdf6bc2ce",
+    "mods/patchful-1.20.1-1.0.0.jar": "2462f3961a515bbf9d9cf8c58f8c875a9719c36d10fcc36d0dc8a12b09566afd",
+    "mods/polylib-forge-2000.0.3-build.143.jar": "abf42a3240b083fc96b9c022a049323cd4130844fcef338e1ab8b2cd6502a04b",
+    "mods/polymorph-forge-0.49.10+1.20.1.jar": "cbe63a0a1cb6ae8dbc0e29bb96d149a137cd4e714b295fa49d230994091d157f",
+    "mods/rechiseled-1.2.4-forge-mc1.20.1.jar": "e27f19cac5c6a1946d71bffdd5ac88a32f63de209dcba9619069a3c1ff0dd079",
+    "mods/rechiseled_chipped-2.0-1.20.1.jar": "6f742ee5d0aa4df3a416ceee3d2bb16e669d829a481cb394789f438536ae540a",
+    "mods/rechiseledae2-forge-1.20-1.20.1-1.1.0.jar": "b24a66fccbad46efd8c83506015f6dfd3a8f0d870743ee1fc27e623a3dd15f27",
+    "mods/rechiseledcreate-1.1.0-forge-mc1.20.jar": "1006c8deb08641ca21d15ee34d8959f6cde749d523206d0af162371e65e53b25",
+    "mods/reclamation_util-1.20.1-1.0.27.jar": "02461eda3c329781839866f8ea4eddf89cea7d6b7c2ddb05cda633b4cf5b88bd",
+    "mods/resourcefulconfig-forge-1.20.1-2.1.3.jar": "c404b9e5cf8595427a72d4ca6ee5730289168762b463f169be3ae5dfe3727ded",
+    "mods/resourcefullib-forge-1.20.1-2.1.29.jar": "b13afb95231d88e1caea5a045967e0fc291b29020b0d26ad39e6f9e9a551fee8",
+    "mods/rhino-forge-2001.2.3-build.10.jar": "fed2211429301bf043864183cab9ab8e92d4cc4dbb9e488ce6c75217c54584a6",
+    "mods/sebastrnlib-4.0.0.jar": "40ff60a6739b91cc63216d414164b1e7e8447545c0e79f73f9cc888601dde809",
+    "mods/simplylight-1.20.1-1.4.6-build.50.jar": "893c67fb4bbafee6e3208ba34bf60e2d6f17f4f9efdb6d1f12baa4052d8ddd10",
+    "mods/sophisticatedbackpacks-1.20.1-3.24.40.1745.jar": "f1c65721203c0ed2c0facf4cf429e82a52fe789931ccd01c177c5408859b05c2",
+    "mods/sophisticatedcore-1.20.1-1.3.36.1854.jar": "115bb5a81b7200ecff0d48ce110b1c42122012e673df6d6ea26dccc322d826b2",
+    "mods/sophisticatedstorage-1.20.1-1.4.45.1727.jar": "e1ad50d6f0dcc553250ac1a85896f058925294f1ffb80b26206054aaea3cbc33",
+    "mods/sophisticatedstoragecreateintegration-1.20.1-0.1.19.125.jar": "5aa4a9cfe2cc0c6b445c8323f1c747e29941860877f0833fadd5b6a9dbdfc892",
+    "mods/sound-physics-remastered-forge-1.20.1-1.5.1.jar": "591fa317c4e462039dae01967bf370acb284d5118cf5839a33f1d01b6c0def3c",
+    "mods/stateobserver-forge-1.20.1-1.4.3.jar": "7deb690b98f503fc2bed51a9b68a68b24feba46073c2eae2ea73e2e32c26833d",
+    "mods/supermartijn642configlib-1.1.8-forge-mc1.20.jar": "bea425ef7e9cd27a7fc0f4b89e00cbd0a1ee050f071ecaa9f28f7238f400f0a3",
+    "mods/supermartijn642corelib-1.1.21-forge-mc1.20.1.jar": "6e4f3664aaa5f4138a43acb246c0d91672372acb78a02b89a0531c11596f2c1c",
+    "mods/supplementaries-1.20-3.1.43-forge.jar": "6132fc23a2fe1da0ca57439b35526ee9a1a8d898397ff8e61b2d08fb951cdf6a",
+    "mods/theurgy-1.20.1-1.28.0.jar": "f7d8f9b1af2f6fee66d91ccff90de7994dba1ae5cf43b11bb8d04a57427ab371",
+    "mods/theurgy_kubejs-1.20.1-1.1.0.jar": "ace712b74e2749b12a6544e385c5fbecb8289e9c70650fb989e4b86bc470c9b2",
+    "mods/tomeofblood-1.20.1-0.4.5.jar": "7e11d398914707e6081680b4032ceb1b30fc973fa9d0fc9e6b9f4e10c0a98719",
+    "mods/toomanyglyphs-1.20.1-2.3.2.12345.jar": "8746ce72e1c4e9eac28dc40a26fffa56189efdcbb38ffa752f0fc3d7fadbb33e",
+    "mods/trashcans-1.0.18b-forge-mc1.20.jar": "533c14cfcc5d99e4889d9cdddea2e2ef382febfd5ae5ecb3b0676538a1ccdda4",
+    "mods/tru.e-ending-v1.1.0c.jar": "3bf63a4ed7cb9a75727da2301fe0642ce74c9e0384cdb79e9b3570d3ab320aaa",
+    "mods/via_romana-forge-1.4.1.jar": "021e7a74eda75a7b57c3b355c973380b725340f93d600178f14f06101ce63d24",
+    "mods/watermedia-3.0.0.16.jar": "242b73ce161a7ade686a6d7f55797a4277d14be3c59f613a7775cbde43a53d14",
+    "mods/wm_binaries-3.0.0-rc.1.jar": "720d8cf3cef97856a1347738b259ed54d7a2aa06cbe7e304fc46d1c746343f0b",
+    "mods/xaerominimap-forge-1.20.1-25.3.13.jar": "107a686c1a1637998c8ce7fa2262bb8c36f24277d6b2cf4b512a0b176ff41e89",
+    "mods/xaeroworldmap-forge-1.20.1-1.40.16.jar": "49fbf2a0c91ca7e161b17f3b1784d4e798d0cd19f361ad3ebf6613e559f6371d",
+    "mods/xercamusic-1.20.1-1.0.3.jar": "c5cf4c8a584193304bf472809ef884da13ff4e5e23bae412c3468fbc3d1a0a39",
+    "mods/xercapaint-1.20.1-1.1.0.jar": "0bd767e364825356091cfa35c4ea22f53504c7fb58dbc8e33781fefcabfb2d8b"
+  },
+  "upstreamLockSha256": "c2c1860640f908c34c1430559cf2e6546316562881e6173c005602ce44c8bf24"
+}

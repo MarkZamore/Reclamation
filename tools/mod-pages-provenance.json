@@ -1,0 +1,263 @@
+{
+  "authorArchiveSha256": "1aa6253e5c211751ea3951b68e678574a59f4e34246208b2032f9183cea3b344",
+  "individuallyVerified": {
+    "ae2addonlib": {
+      "matches": [
+        {
+          "jarJarCoordinate": {
+            "artifact": "ae2addonlib",
+            "group": "io.github.pedroksl"
+          },
+          "nestedPath": "META-INF/jarjar/ae2addonlib-1.0.4-1.20.1.jar",
+          "nestedSha256": "c67e4905424cf950ddfdadb64c0e2992b87b2afed1af84b2c3998567fb03a0e2",
+          "parentPath": "mods/AdvancedAE-1.3.5-1.20.1.jar",
+          "parentSha256": "ee172c27c28b1d545e1501575021d8f0e5b34ca9dc8a901f7544b0a7fedf0262"
+        }
+      ],
+      "nativeSourceFile": "ae2addonlib-1.0.4-1.20.1.jar",
+      "nativeVersion": "1.0.4-1.20.1",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ae2addonlib"
+    },
+    "crash_assistant": {
+      "matches": [
+        {
+          "nestedPath": "META-INF/jarjar/crash_assistant-forge.jar",
+          "nestedSha256": "6d034fcb47eda3cd10b2e05c741058e7641015ce7ca7f675aff9692df454631c",
+          "parentPath": "mods/CrashAssistant-forge-1.19-1.20.1-1.11.9.jar",
+          "parentSha256": "11674636141f3be9ea22c8b274e58380f33169c2e4f5e9605cf6865f467d90a9",
+          "sourceNote": "Native basename matches the exact embedded Forge mod in the same author distribution."
+        }
+      ],
+      "nativeSourceFile": "crash_assistant-forge.jar",
+      "nativeVersion": "1.11.9",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/crash-assistant"
+    },
+    "flywheel": {
+      "matches": [
+        {
+          "jarJarCoordinate": {
+            "artifact": "flywheel-forge-1.20.1",
+            "group": "dev.engine-room.flywheel"
+          },
+          "nestedPath": "META-INF/jarjar/flywheel-forge-1.20.1-1.0.5.jar",
+          "nestedSha256": "316ca250f19244956b5f0cd75329309ea65a77b4b8da854389b6a9222e7f427c",
+          "parentPath": "mods/create-1.20.1-6.0.8.jar",
+          "parentSha256": "6fbb910c367dbce8e4fc7e5bf64b6edd4de980906ed00af8e47e4af843c0d9b0"
+        }
+      ],
+      "nativeSourceFile": "flywheel-forge-1.20.1-1.0.5.jar",
+      "nativeVersion": "1.0.5",
+      "websiteUrl": "https://github.com/Engine-Room/Flywheel"
+    },
+    "geckolib": {
+      "matches": [
+        {
+          "fileId": 7553267,
+          "parentPath": "mods/geckolib-forge-1.20.1-4.8.3.jar",
+          "parentSha256": "8b90e11871a58b63816e99c529e6c932bc88e6beb3fec97ad618e22217df3250",
+          "projectId": 388172
+        }
+      ],
+      "nativeSourceFile": "geckolib-forge-1.20.1-4.8.3.jar",
+      "nativeVersion": "4.8.3",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/geckolib"
+    },
+    "kotlinforforge": {
+      "matches": [
+        {
+          "jarJarCoordinate": {
+            "artifact": "kffmod",
+            "group": "thedarkcolour"
+          },
+          "nestedPath": "META-INF/jarjar/kffmod-4.12.0.jar",
+          "nestedSha256": "007d01bead461011be3774a3edf858314e0324023270f06d008834a7a404ee71",
+          "parentPath": "mods/kotlinforforge-4.12.0-all.jar",
+          "parentSha256": "6a66c6a68ec09f8717cdbf06883394f0ee24d7cd826b7134a0f81839e8e720ae"
+        }
+      ],
+      "nativeSourceFile": "kffmod-4.12.0.jar",
+      "nativeVersion": "4.12.0",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge"
+    },
+    "kuma_api": {
+      "matches": [
+        {
+          "jarJarCoordinate": {
+            "artifact": "kuma-api-forge",
+            "group": "net.blay09.mods"
+          },
+          "nestedPath": "META-INF/jarjar/kuma-api-forge-20.1.12+1.20.1.jar",
+          "nestedSha256": "5118a4d1ce2bb836158184887002c7aec7d723a56da5185a0c5b08f9c5cc4767",
+          "parentPath": "mods/balm-forge-1.20.1-7.3.38-all.jar",
+          "parentSha256": "cbe8008218f0f574bc1f78b532cac5f978c33bf36ae2e14805340eab445fdb08"
+        }
+      ],
+      "nativeSourceFile": "kuma-api-forge-20.1.12+1.20.1.jar",
+      "nativeVersion": "20.1.12",
+      "websiteUrl": "https://github.com/TwelveIterations/KumaAPI"
+    },
+    "mixinsquared": {
+      "matches": [
+        {
+          "jarJarCoordinate": {
+            "artifact": "mixinsquared-forge",
+            "group": "com.github.bawnorton.mixinsquared"
+          },
+          "nestedPath": "META-INF/jars/mixinsquared-forge-0.1.1.jar",
+          "nestedSha256": "dfc427c65c02310121813d7e6d20111675452d6bfe0fa3b1c7c9610ff0ae7779",
+          "parentPath": "mods/moonlight-1.20-2.16.32-forge.jar",
+          "parentSha256": "abe6ef01c6d950789f55ee06b3767aa636655d41cd55f7ca2af3a34e8752d155"
+        },
+        {
+          "jarJarCoordinate": {
+            "artifact": "mixinsquared-forge",
+            "group": "com.github.bawnorton.mixinsquared"
+          },
+          "nestedPath": "META-INF/jars/mixinsquared-forge-0.1.1.jar",
+          "nestedSha256": "fe7a4ba905dfa7596e95078f94fb01860f885ef008a9b473c42a176de57bfd31",
+          "parentPath": "mods/supplementaries-1.20-3.1.43-forge.jar",
+          "parentSha256": "6132fc23a2fe1da0ca57439b35526ee9a1a8d898397ff8e61b2d08fb951cdf6a"
+        }
+      ],
+      "nativeSourceFile": "mixinsquared-forge-0.1.1.jar",
+      "nativeVersion": "0.1.1",
+      "websiteUrl": "https://github.com/Bawnorton/MixinSquared"
+    },
+    "ponder": {
+      "matches": [
+        {
+          "jarJarCoordinate": {
+            "artifact": "Ponder-Forge-1.20.1",
+            "group": "net.createmod.ponder"
+          },
+          "nestedPath": "META-INF/jarjar/Ponder-Forge-1.20.1-1.0.91.jar",
+          "nestedSha256": "86e6b64372aba6d9c56f2c35725ea26d8febf2c75eed9950566e7f2849443b34",
+          "parentPath": "mods/create-1.20.1-6.0.8.jar",
+          "parentSha256": "6fbb910c367dbce8e4fc7e5bf64b6edd4de980906ed00af8e47e4af843c0d9b0"
+        }
+      ],
+      "nativeSourceFile": "Ponder-Forge-1.20.1-1.0.91.jar",
+      "nativeVersion": "1.0.91",
+      "websiteUrl": "https://github.com/Creators-of-Create/Ponder"
+    },
+    "reclamation_util": {
+      "matches": [
+        {
+          "parentPath": "mods/reclamation_util-1.20.1-1.0.27.jar",
+          "parentSha256": "02461eda3c329781839866f8ea4eddf89cea7d6b7c2ddb05cda633b4cf5b88bd",
+          "sourceNote": "Exact author override names ACCBDD and identifies this mod as Reclamation utilities. The standalone official source is maintained by the same author."
+        }
+      ],
+      "nativeSourceFile": "reclamation_util-1.20.1-1.0.27.jar",
+      "nativeVersion": "1.0.27",
+      "websiteUrl": "https://github.com/ACCBDD/reclamation-util"
+    },
+    "spectrelib": {
+      "matches": [
+        {
+          "jarJarCoordinate": {
+            "artifact": "spectrelib-forge",
+            "group": "com.illusivesoulworks.spectrelib"
+          },
+          "nestedPath": "META-INF/jarjar/spectrelib-forge-0.13.17+1.20.1.jar",
+          "nestedSha256": "0e2b29d9a55eeaf6196b284b4a964f917254c4102152c328bf82f58b52ade389",
+          "parentPath": "mods/polymorph-forge-0.49.10+1.20.1.jar",
+          "parentSha256": "cbe63a0a1cb6ae8dbc0e29bb96d149a137cd4e714b295fa49d230994091d157f"
+        }
+      ],
+      "nativeSourceFile": "spectrelib-forge-0.13.17+1.20.1.jar",
+      "nativeVersion": "0.13.17+1.20.1",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/spectrelib"
+    },
+    "transition": {
+      "matches": [
+        {
+          "jarJarCoordinate": {
+            "artifact": "TRansition",
+            "group": "dev.tr7zw"
+          },
+          "nestedPath": "META-INF/jars/TRansition-1.0.17-1.20.1-forge-SNAPSHOT.jar",
+          "nestedSha256": "4ecc4fe44d77a0b109f9d54068ce717e9de06e403ef8d053dde8a07a66dff9ae",
+          "parentPath": "mods/entityculling-forge-1.10.1-mc1.20.1.jar",
+          "parentSha256": "1231bb17e3db1a7d4e98800bb070ec1e7e7c016b934e1eb11c1cc63d11d0aa2d"
+        }
+      ],
+      "nativeSourceFile": "TRansition-1.0.17-1.20.1-forge-SNAPSHOT.jar",
+      "nativeVersion": "1.0.17",
+      "websiteUrl": "https://github.com/tr7zw/TRansition"
+    },
+    "trender": {
+      "matches": [
+        {
+          "jarJarCoordinate": {
+            "artifact": "TRender",
+            "group": "dev.tr7zw"
+          },
+          "nestedPath": "META-INF/jars/TRender-1.0.12-1.20.1-forge-SNAPSHOT.jar",
+          "nestedSha256": "4f41b6cbfb9c65bb62a890f6a681d709b60052d18e41461f798caef8bd55c295",
+          "parentPath": "mods/entityculling-forge-1.10.1-mc1.20.1.jar",
+          "parentSha256": "1231bb17e3db1a7d4e98800bb070ec1e7e7c016b934e1eb11c1cc63d11d0aa2d"
+        }
+      ],
+      "nativeSourceFile": "TRender-1.0.12-1.20.1-forge-SNAPSHOT.jar",
+      "nativeVersion": "1.0.12",
+      "websiteUrl": "https://github.com/tr7zw/TRender"
+    },
+    "xaerolib": {
+      "matches": [
+        {
+          "jarJarCoordinate": {
+            "artifact": "xaerolib-forge-1.20.1",
+            "group": "xaero.lib"
+          },
+          "nestedPath": "META-INF/jarjar/xaerolib-forge-1.20.1-1.1.15.jar",
+          "nestedSha256": "7db4435601faa28ad76f40a35a990232cb9cb683aeb0b9907a7f30ef6f7d2a14",
+          "parentPath": "mods/xaerominimap-forge-1.20.1-25.3.13.jar",
+          "parentSha256": "107a686c1a1637998c8ce7fa2262bb8c36f24277d6b2cf4b512a0b176ff41e89"
+        },
+        {
+          "jarJarCoordinate": {
+            "artifact": "xaerolib-forge-1.20.1",
+            "group": "xaero.lib"
+          },
+          "nestedPath": "META-INF/jarjar/xaerolib-forge-1.20.1-1.1.15.jar",
+          "nestedSha256": "7db4435601faa28ad76f40a35a990232cb9cb683aeb0b9907a7f30ef6f7d2a14",
+          "parentPath": "mods/xaeroworldmap-forge-1.20.1-1.40.16.jar",
+          "parentSha256": "49fbf2a0c91ca7e161b17f3b1784d4e798d0cd19f361ad3ebf6613e559f6371d"
+        }
+      ],
+      "nativeSourceFile": "xaerolib-forge-1.20.1-1.1.15.jar",
+      "nativeVersion": "1.1.15",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/xaerolib"
+    }
+  },
+  "nativeEvidence": {
+    "authorModJarCount": 166,
+    "excludedIds": {
+      "e4steam": {
+        "nativeSourceFile": "e4steam-forge-mc1.18.2-1.20.2-v0.3.4-lanmc-native-ui.2.jar",
+        "version": "0.3.4"
+      },
+      "forge": {
+        "nativeSourceFile": "forge-1.20.1-47.4.0-universal.jar",
+        "version": "47.4.0"
+      },
+      "minecraft": {
+        "nativeSourceFile": "client-1.20.1-20230612.114412-srg.jar",
+        "version": "1.20.1"
+      }
+    },
+    "loadedAuthorModCount": 176,
+    "nativeModCount": 179,
+    "observedModListSha256": "b7ccd9bb30a1134590130528302aa292cbfba6f590804142488593d699b575dc",
+    "steamComponentSha256": "3f397fc193f14d3c543b5ef9b4613bc149a21ca8e14bd93c39de3d1bc6f9553c"
+  },
+  "officialProjectRecords": {
+    "normalizedCacheSha256": "2f3e7ae4b57cc74bdcf3cd39717224c73f70a7bd2aab6ef71339f6ea05c94ec1",
+    "projectCount": 165,
+    "projectEndpointTemplate": "https://api.modpacks.ch/public/curseforge/{projectId}"
+  },
+  "packVersion": "2.3.2",
+  "schemaVersion": 1,
+  "upstreamLockSha256": "c2c1860640f908c34c1430559cf2e6546316562881e6173c005602ce44c8bf24"
+}
