@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "sourceRevision": "bbb53acb6f78746a2fc643012df307cc72999d11",
+  "authorPayloadSourceRevision": "54c78cce3c26c72f6808c4168f2fe65e3b5fb3ee",
+  "launcherRelease": 497,
+  "launcherRevision": "e45c6f5830c8aa4725b4190cf05462097d94b753",
+  "launcherExeSha256": "1169b958dca5633ecabc43b32cfd5091ce4f9de111fa767c5c58f4ec765a6b7c",
+  "launcherAssemblySha256": "532f9237f5c226c18bbe4fb885389ea2b13ac31de8f24932b03fb3b7d5947b4a",
+  "minecraftVersion": "1.20.1",
+  "profile": "1.20.1-forge-47.4.0",
+  "javaRuntime": "Temurin 17.0.20.1+1",
+  "authorArchiveSha256": "1aa6253e5c211751ea3951b68e678574a59f4e34246208b2032f9183cea3b344",
+  "upstreamLockSha256": "c2c1860640f908c34c1430559cf2e6546316562881e6173c005602ce44c8bf24",
+  "intakeSha256": "a29301b5bbd1c4d0ccaf1d777a5d9afd07819b9d68096b301b6f0cc5462bcd31",
+  "descriptorSha256": "ddbe92031326cda8a0c9470a49b86b8143a2ff76c2bbf0b669e012f2f747f59e",
+  "cleanPayloadVerifiedFiles": 3659,
+  "manifestSha256": "16271ca659fea42dbbe0c4f015deac6c24c1f70898f40bfb7273232da07ce9b0",
+  "exactFinalLibraryArchiveSha256": "6b32ea7d81a60490d2aac1cb7cd3bcf9fa54de57acd0e769f708ee52bd29e7dd",
+  "nativeAgentSha256": "c1f1d0fe4dd19df20fb4487a3ed380a07606c67d46a75ef1163be9bb76aa0422",
+  "managedSteamSha256": "3f397fc193f14d3c543b5ef9b4613bc149a21ca8e14bd93c39de3d1bc6f9553c",
+  "runtimeE4mcAbsent": true,
+  "loadedForgeIdsIncludingPlatform": 179,
+  "publishedAuthorModCount": 176,
+  "nativeEvidenceSha256": "2fc6fbf2187c9f6905f2dc29a8ba458e032904c077141751c452589b0ac69870",
+  "adapter": {
+    "jarSha256": "f5274c077ea45aca68f609ba30c28e52acbf4caac82de74a717e2c24d5428945",
+    "stateSha256": "e11a5a3b6a0fe6636f1b08c1d5d91521369f90fa89a51acbc24c0e0c9a53bd77",
+    "targetsPassed": 25,
+    "skinUrlSemantic": "PASS"
+  },
+  "productionArgFile": {
+    "used": true,
+    "removed": true,
+    "beforeChars": 36843,
+    "afterChars": 1034
+  },
+  "reopenedInputLevelDatSha256": "0f4b45527ec473505b67c6d637ef5e16c1d8cae940500b73bf1fc010900aa6c2",
+  "afterExitNbt": {
+    "hardcore": 0,
+    "allowCommands": 0,
+    "Difficulty": 3,
+    "DifficultyLocked": 0,
+    "GameType": 0,
+    "LevelName": "LanMcSteamQa120",
+    "doTraderSpawning": "false",
+    "generatorType": "minecraft:noise",
+    "generatorSettings": "reclamation:overworld",
+    "postExitLevelDatSha256": "5964a3da963de1175476eb0a7ab5fcbc2ec8fed6cf4e247d61c2cdb94d71d27c"
+  },
+  "titles": [
+    {
+      "kind": "window_title",
+      "utc": "2026-11-13T20:25:08.070566Z",
+      "expected": "Reclamation",
+      "matches": true,
+      "nativeWindow": true,
+      "actual": "Reclamation",
+      "phase": "startup"
+    },
+    {
+      "kind": "window_title",
+      "utc": "2026-11-13T20:25:46.668588900Z",
+      "expected": "Reclamation",
+      "matches": true,
+      "nativeWindow": true,
+      "actual": "Reclamation",
+      "phase": "world_before_steam"
+    },
+    {
+      "kind": "window_title",
+      "utc": "2026-11-13T20:25:56.454545800Z",
+      "expected": "Reclamation",
+      "matches": true,
+      "nativeWindow": true,
+      "actual": "Reclamation",
+      "phase": "world_after_steam"
+    }
+  ],
+  "checks": {
+    "world_reopened": {
+      "kind": "world_reopened",
+      "utc": "2026-11-13T20:25:33.776468500Z",
+      "gameMode": "SURVIVAL",
+      "commands": false
+    },
+    "pause_before_publish": {
+      "kind": "pause_before_publish",
+      "utc": "2026-11-13T20:25:46.791603500Z",
+      "worldSettingsOrCheats": false,
+      "shareToLan": 1,
+      "nativeButtonCallback": true
+    },
+    "published": {
+      "kind": "published",
+      "utc": "2026-11-13T20:25:47.283083700Z",
+      "settingsClosedOnPublication": true,
+      "nativeListener": true
+    },
+    "native_permissions": {
+      "kind": "native_permissions",
+      "utc": "2026-11-13T20:25:55.157656100Z",
+      "actualPlayerList": true,
+      "syntheticGuest": true,
+      "checks": {
+        "savedSurvivalMode": true,
+        "hostAfter": false,
+        "savedAllowsCommands": false,
+        "hostBefore": false,
+        "guestBefore": false,
+        "guestAfter": false
+      }
+    },
+    "pause_after_publish": {
+      "kind": "pause_after_publish",
+      "utc": "2026-11-13T20:25:56.291658400Z",
+      "reports": true,
+      "shareToLanGone": true,
+      "worldSettingsOrCheats": false
+    },
+    "chat": {
+      "kind": "chat",
+      "utc": "2026-11-13T20:25:56.330979700Z",
+      "blueInviteAction": true,
+      "redCloseAction": true,
+      "readyLines": 1,
+      "greenCopyableAddress": true,
+      "privateEndpointRecorded": false,
+      "nativeLocalHistory": true,
+      "localPortLines": 1
+    },
+    "steam_lobby_metadata": {
+      "kind": "steam_lobby_metadata",
+      "utc": "2026-11-13T20:25:56.468738700Z",
+      "matchesLauncherPlayer": true,
+      "secondAccountDiscovery": "NOT RUN",
+      "matchesWorldName": true,
+      "displayFlag": true,
+      "actualSteamLobby": true
+    },
+    "world_saved": {
+      "kind": "world_saved",
+      "utc": "2026-11-13T20:25:58.620924400Z",
+      "levelDatSha256": "0e0f81a69ac79ba626f5dec9f273f9a4211e10a3f2c108e93724ee4542ab7576",
+      "levelDatBytes": 400462
+    },
+    "complete": {
+      "kind": "complete",
+      "utc": "2026-11-13T20:25:58.629300400Z",
+      "nativeSteamHost": "PASS",
+      "guestConnection": "NOT RUN"
+    }
+  },
+  "upstreamContentWarning": {
+    "sameOnFreshAndReopen": true,
+    "mod": "ExtendedAE-1.20-1.4.15-forge.jar",
+    "projectId": 892005,
+    "fileId": 7986603,
+    "modSha256": "93a201125fc629d6c284784f28e92af995e450ad3137f38057af0716e76f3b56",
+    "jarMember": "data/expatternprovider/loot_tables/blocks/ex_emc_interface.json",
+    "jarMemberSha256": "1890ce8142aa2dc2b072df90b64e066f0c3ba1d73b13959b66ab2b201c709628",
+    "unknownItem": "expatternprovider:ex_emc_interface",
+    "authorConfigSha256": "9c9c54f0cc082f7ba6f0ba4e3a5885767d48c3137a9c85d69b3b2ada87ca8a09",
+    "authoredFilesMatchPackAndNoContentEdits": true,
+    "separateAuthorOnlyNativeProcess": "NOT RUN"
+  },
+  "nativeClientExitCode": 0,
+  "realSteamGuest": "NOT RUN",
+  "computerUse": false,
+  "nativeProofSha256": "95ac1d5e33ec5fe06c52d1add954a1eb6664b90b3d3ebe23af2b15dfc267cca3",
+  "publicInstall": {
+    "outcome": "PASS",
+    "revision": "bbb53acb6f78746a2fc643012df307cc72999d11",
+    "manifestSha256": "16271ca659fea42dbbe0c4f015deac6c24c1f70898f40bfb7273232da07ce9b0",
+    "librarySha256": "6b32ea7d81a60490d2aac1cb7cd3bcf9fa54de57acd0e769f708ee52bd29e7dd",
+    "launcherAssemblySha256": "532f9237f5c226c18bbe4fb885389ea2b13ac31de8f24932b03fb3b7d5947b4a",
+    "gameAssets": 132,
+    "gameAssetBytes": 527141741,
+    "installedFiles": 3659,
+    "installedBytes": 558820021.0
+  }
+}
