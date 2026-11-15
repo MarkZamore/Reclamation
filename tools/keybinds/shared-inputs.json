@@ -1,0 +1,74 @@
+{
+  "key.keyboard.a": [
+    "key_key.left:key.keyboard.a",
+    "key_key.jei.bookmark:key.keyboard.a"
+  ],
+  "key.keyboard.down": [
+    "key_key.jei.nextSearch:key.keyboard.down",
+    "key_key.buildinggadgets2.undo:key.keyboard.down"
+  ],
+  "key.keyboard.end": [
+    "key_key.craftingtweaks.refill_last:key.keyboard.end:CONTROL",
+    "key_key.craftingtweaks.refill_last_stack:key.keyboard.end"
+  ],
+  "key.keyboard.f": [
+    "key_key.swapOffhand:key.keyboard.f",
+    "key_key.jei.focusSearch:key.keyboard.f:CONTROL"
+  ],
+  "key.keyboard.k": [
+    "key_key.craftingtweaks.compress_one:key.keyboard.k:CONTROL",
+    "key_key.craftingtweaks.compress_stack:key.keyboard.k",
+    "key_key.craftingtweaks.compress_all:key.keyboard.k:SHIFT"
+  ],
+  "key.keyboard.left.bracket": [
+    "key_key.sophisticatedcore.transfer_to_storage:key.keyboard.left.bracket",
+    "key_key.buildinggadgets2.settings_menu:key.keyboard.left.bracket"
+  ],
+  "key.keyboard.left.control": [
+    "key_key.sprint:key.keyboard.left.control",
+    "key_key.mekanism.key_boost:key.keyboard.left.control"
+  ],
+  "key.keyboard.left.shift": [
+    "key_key.sneak:key.keyboard.left.shift",
+    "key_key.mekanism.details:key.keyboard.left.shift",
+    "key_key.jade.show_details:key.keyboard.left.shift"
+  ],
+  "key.keyboard.page.down": [
+    "key_key.jei.nextRecipePage:key.keyboard.page.down",
+    "key_key.jei.nextCategory:key.keyboard.page.down:SHIFT",
+    "key_quark.keybind.change_hotbar:key.keyboard.page.down"
+  ],
+  "key.keyboard.page.up": [
+    "key_key.jei.previousRecipePage:key.keyboard.page.up",
+    "key_key.jei.previousCategory:key.keyboard.page.up:SHIFT"
+  ],
+  "key.keyboard.right.bracket": [
+    "key_key.sophisticatedcore.transfer_to_inventory:key.keyboard.right.bracket",
+    "key_key.buildinggadgets2.anchor:key.keyboard.right.bracket"
+  ],
+  "key.keyboard.up": [
+    "key_key.jei.previousSearch:key.keyboard.up",
+    "key_key.buildinggadgets2.range:key.keyboard.up"
+  ],
+  "key.mouse.left": [
+    "key_key.attack:key.mouse.left",
+    "key_key.jei.showRecipe2:key.mouse.left",
+    "key_key.jei.toggleHideIngredient:key.mouse.left:CONTROL",
+    "key_key.jei.cheatOneItem:key.mouse.left",
+    "key_key.jei.toggleCheatModeConfigButton:key.mouse.left:CONTROL",
+    "key_key.jei.transferRecipeBookmark:key.mouse.left:SHIFT",
+    "key_key.jei.maxTransferRecipeBookmark:key.mouse.left:CONTROL",
+    "key_key.jei.cheatItemStack:key.mouse.left:SHIFT"
+  ],
+  "key.mouse.middle": [
+    "key_key.pickItem:key.mouse.middle",
+    "key_key.jei.cheatItemStack2:key.mouse.middle"
+  ],
+  "key.mouse.right": [
+    "key_key.use:key.mouse.right",
+    "key_key.jei.showUses2:key.mouse.right",
+    "key_key.jei.clearSearchBar:key.mouse.right",
+    "key_key.jei.cheatOneItem2:key.mouse.right",
+    "key_key.jei.toggleWildcardHideIngredient:key.mouse.right:CONTROL"
+  ]
+}

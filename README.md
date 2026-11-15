@@ -27,3 +27,7 @@ python -B tools/PackData/CurseForge/release_overlay.py stage --pack-source Local
 У сборки MIT. В манифесте закреплён FTB Quests, CF 289412/8078538. У FTB отдельные условия для перепубликации. [Условия](https://feed-the-beast.com/raw/docs/mod-license)
 
 Пользователь подтвердил наличие разрешения на перезалив. Публикация следует после проверки полного состава и нативной приёмки.
+
+## Пресет управления
+
+Раскладка, проверка пересечений и выпуск описаны в [tools/keybinds/design.md](tools/keybinds/design.md).
