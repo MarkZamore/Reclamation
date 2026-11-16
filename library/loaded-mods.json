@@ -982,13 +982,6 @@
       "version": "1.1.0"
     },
     {
-      "id": "reclamation_multiplayer",
-      "name": "Reclamation Multiplayer",
-      "nativeSourceFile": "reclamation-multiplayer-1.0.0.jar",
-      "source": "mods/reclamation-multiplayer-1.0.0.jar",
-      "version": "1.0.0"
-    },
-    {
       "id": "reclamation_util",
       "name": "reclamation_util",
       "nativeSourceFile": "reclamation_util-1.20.1-1.0.27.jar",

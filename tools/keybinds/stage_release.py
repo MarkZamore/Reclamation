@@ -13,6 +13,7 @@ PRESET_PATH = "launcher/controls-preset.txt"
 MANIFEST = "pack-manifest.json"
 WARNING_JAR = "mods/reclamation-multiplayer-1.0.0.jar"
 WARNING_ID = "reclamation_multiplayer"
+WARNING_POLICY = "tools/multiplayer-warning/policy.json"
 
 
 def git(*args):
@@ -46,6 +47,29 @@ def write_zip(output, contents, name_for_hash):
     return metadata
 
 
+def warning_policy(revision):
+    policy = json.loads(git("show", f"{revision}:{WARNING_POLICY}"))
+    if policy["path"] != WARNING_JAR:
+        raise ValueError("Unexpected multiplayer policy path")
+    return policy
+
+
+def verify_warning(manifest, assets, policy_revision=None):
+    policy = warning_policy(policy_revision or manifest["revision"])
+    if any(manifest[key] != policy[key] for key in ("minecraftVersion", "loader")):
+        raise ValueError("Review the multiplayer warning policy for the new platform")
+    expected = {key: policy[key] for key in ("path", "sizeBytes", "sha256")}
+    files = [row for row in manifest["files"] if row["path"] == WARNING_JAR]
+    if files != [expected]:
+        raise ValueError("Release is missing its pinned multiplayer warning policy")
+    matches = [row for row in manifest["assets"] if WARNING_JAR in row["covers"]]
+    if len(matches) != 1 or matches[0]["covers"] != [WARNING_JAR]:
+        raise ValueError("Release must supply one dedicated multiplayer policy asset")
+    contents = read_zip(assets, matches[0], [WARNING_JAR])
+    if pin(contents[WARNING_JAR]) != {key: expected[key] for key in ("sizeBytes", "sha256")}:
+        raise ValueError("Release multiplayer warning helper differs from the fixed policy")
+
+
 def stage(manifest_path, assets, output):
     manifest = json.loads(manifest_path.read_bytes())
     if (manifest["packId"], manifest["minecraftVersion"], manifest["loader"]["version"]) != (
@@ -57,7 +81,7 @@ def stage(manifest_path, assets, output):
     changed = git("diff", "--name-only", previous, revision).decode().splitlines()
     if (previous != revision and not changed) or any(
         path not in {PRESET_PATH, WARNING_JAR, "README.md", ".gitattributes", "tools/qa-public-497.json",
-                     "library/loaded-mods.json", "library/mod-pages.json"}
+                     "library/loaded-mods.json", "library/mod-pages.json", "tools/prepare_release.py"}
         and not path.startswith(("tools/keybinds/", "tools/multiplayer-warning/"))
         for path in changed
     ):
@@ -66,6 +90,9 @@ def stage(manifest_path, assets, output):
     if preset != render().encode() or preset != git("show", f"{revision}:{PRESET_PATH}"):
         raise ValueError("Preset does not match its inputs or source commit")
 
+    policy = warning_policy(revision)
+    if any(manifest[key] != policy[key] for key in ("minecraftVersion", "loader")):
+        raise ValueError("Review the multiplayer warning policy for the new platform")
     rows = {row["path"]: row for row in manifest["files"]}
     launcher = next(row for row in manifest["assets"] if "launcher/jvm-args.txt" in row["covers"])
     contents = read_zip(assets, launcher, launcher["covers"])
@@ -84,17 +111,15 @@ def stage(manifest_path, assets, output):
     warning = (PACK / WARNING_JAR).read_bytes()
     if warning != git("show", f"{revision}:{WARNING_JAR}"):
         raise ValueError("Multiplayer helper differs from the source commit")
-    inventory = json.loads(git("show", f"{revision}:library/loaded-mods.json"))
-    loaded = next(row for row in inventory["mods"] if row["id"] == WARNING_ID)
-    if loaded["source"] != WARNING_JAR:
-        raise ValueError("Multiplayer helper has an unexpected source path")
+    if pin(warning) != {key: policy[key] for key in ("sizeBytes", "sha256")}:
+        raise ValueError("Source JAR differs from the fixed multiplayer warning policy")
     pages = json.loads(git("show", f"{revision}:library/mod-pages.json"))
     old_count = sum(row["isLoadedMod"] for row in metadata["mods"])
     if old_count != manifest["modCount"]:
         raise ValueError("Old release mod count does not match its library")
     metadata["mods"] = [row for row in metadata["mods"] if row["id"] != WARNING_ID]
     metadata["mods"].append({
-        "id": WARNING_ID, "name": loaded["name"], "version": loaded["version"],
+        "id": WARNING_ID, "name": policy["name"], "version": policy["version"],
         "isLoadedMod": True, "websiteUrl": pages[WARNING_ID], "websiteAvailable": True,
         "parentId": None, "isLibrary": False,
     })
@@ -122,6 +147,7 @@ def stage(manifest_path, assets, output):
     manifest["revision"] = revision
     timestamp = int(git("show", "-s", "--format=%ct", revision))
     manifest["generatedAtUtc"] = datetime.fromtimestamp(timestamp, timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    verify_warning(manifest, output)
     (output / MANIFEST).write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"{revision} {PRESET_PATH} {rows[PRESET_PATH]['sha256']}")
 
@@ -130,6 +156,13 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("manifest", type=Path)
     parser.add_argument("assets", type=Path)
-    parser.add_argument("output", type=Path)
+    parser.add_argument("output", type=Path, nargs="?")
+    parser.add_argument("--verify-warning", action="store_true")
     args = parser.parse_args()
-    stage(args.manifest, args.assets, args.output)
+    if args.verify_warning:
+        verify_warning(json.loads(args.manifest.read_bytes()), args.assets, policy_revision="HEAD")
+        print("Verified pinned multiplayer warning policy in release")
+    elif args.output is None:
+        parser.error("output is required when staging")
+    else:
+        stage(args.manifest, args.assets, args.output)

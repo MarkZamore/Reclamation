@@ -10,3 +10,4 @@
 /tools/keybinds/** text eol=lf
 /tools/multiplayer-warning/** text eol=lf
 /mods/reclamation-multiplayer-1.0.0.jar -text
+/tools/prepare_release.py text eol=lf

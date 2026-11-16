@@ -13,7 +13,7 @@
 python -B tools/PackData/CurseForge/release_overlay.py stage --pack-source LocalSources/Reclamation --output $stage
 ```
 
-`tools/overlay.json` сохраняет политику открытия мира через Steam. Для нового авторского выпуска снимите отдельную квитанцию через `prepare.py --client-only` и проверьте её командой `release_overlay.py review-update`. При изменении защищённого входа пересмотрите рецепт и закрепите новые точные байты. После нативной проверки сохраните полный `tools/upstream-lock.json` и выполните `release_overlay.py verify` по готовому манифесту.
+`tools/overlay.json` сохраняет политику открытия мира через Steam. Для нового авторского выпуска снимите отдельную квитанцию через `prepare.py --client-only` и проверьте её командой `release_overlay.py review-update`. При изменении защищённого входа пересмотрите рецепт и закрепите новые точные байты. После нативной проверки сохраните полный `tools/upstream-lock.json`. Полный выпуск готовьте командой ниже. Она собирает проверенный авторский слой, затем переносит пресет и постоянную политику входа в сетевую игру и проверяет итоговый манифест.
 
 `tools/curseforge-fallbacks.json` закрепляет два обязательных JAR с пустыми метаданными CurseForge. Страницы выпусков подтверждают имена файлов и их ID. Полные потоки с официального CDN совпали по SHA256 с членами `mods/` официального серверного архива 2.3.2. ZIP-диапазоны также проверены по CRC32. [WATERMeDIA](https://www.curseforge.com/minecraft/mc-mods/watermedia/files/7999277) · [WATERMeDIA Binaries](https://www.curseforge.com/minecraft/mc-mods/watermedia-binaries/files/7436617) · [Серверный архив Reclamation 2.3.2](https://www.curseforge.com/minecraft/modpacks/reclamation-reclaim-the-world/files/8197450)
 
@@ -23,6 +23,14 @@ python -B tools/PackData/CurseForge/release_overlay.py stage --pack-source Local
 | 1029438 / 7436617 | `wm_binaries-3.0.0-rc.1.jar` | 179378119 | `b177b638` |
 
 ## Публикация
+
+Из корня LANMinecraft подготовьте полный выпуск из проверенного авторского стенда:
+
+```powershell
+python -B LocalSources/Reclamation/tools/prepare_release.py --lanminecraft . --author-stage $stage --output $release
+```
+
+При любой смене версии Minecraft или Forge проверьте путь штатной кнопки прежде, чем обновлять закреплённую политику. Если новый авторский архив меняет или убирает настройки, правило входа в сетевую игру всё равно берётся из дополнения Reclamation и проверяется перед выдачей манифеста.
 
 У сборки MIT. В манифесте закреплён FTB Quests, CF 289412/8078538. У FTB отдельные условия для перепубликации. [Условия](https://feed-the-beast.com/raw/docs/mod-license)
 

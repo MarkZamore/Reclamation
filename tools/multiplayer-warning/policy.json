@@ -1,0 +1,12 @@
+{
+  "minecraftVersion": "1.20.1",
+  "loader": {
+    "type": "forge",
+    "version": "47.4.0"
+  },
+  "name": "Reclamation Multiplayer",
+  "version": "1.0.0",
+  "path": "mods/reclamation-multiplayer-1.0.0.jar",
+  "sizeBytes": 2772,
+  "sha256": "591c7feda6f2bddc7629b601c1d978b52427d5927333cb0d3d9f8ad8a1551904"
+}
