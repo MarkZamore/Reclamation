@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,48)"
+license="MIT"
+
+[[mods]]
+modId="reclamation_multiplayer"
+version="1.0.0"
+displayName="Reclamation Multiplayer"
+displayURL="https://github.com/MarkZamore/Reclamation"
+displayTest="IGNORE_ALL_VERSION"
+description="Uses the standard skip-warning route for the multiplayer menu."
+
+[[dependencies.reclamation_multiplayer]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.0]"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.reclamation_multiplayer]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="NONE"
+side="CLIENT"

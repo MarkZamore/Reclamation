@@ -31,3 +31,7 @@ python -B tools/PackData/CurseForge/release_overlay.py stage --pack-source Local
 ## Пресет управления
 
 Раскладка, проверка пересечений и выпуск описаны в [tools/keybinds/design.md](tools/keybinds/design.md).
+
+## Вход в сетевую игру
+
+Клиентское дополнение сразу открывает список серверов. [Сборка и проверка дополнения](tools/multiplayer-warning/README.md).

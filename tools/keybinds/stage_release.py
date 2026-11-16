@@ -1,4 +1,4 @@
-"""Add the Reclamation controls preset to a verified pack manifest."""
+"""Add the pack-owned controls and multiplayer menu assets to a verified release."""
 import argparse
 from datetime import datetime, timezone
 from hashlib import sha256
@@ -11,6 +11,8 @@ from build_preset import PACK, PRESET, render
 
 PRESET_PATH = "launcher/controls-preset.txt"
 MANIFEST = "pack-manifest.json"
+WARNING_JAR = "mods/reclamation-multiplayer-1.0.0.jar"
+WARNING_ID = "reclamation_multiplayer"
 
 
 def git(*args):
@@ -54,11 +56,12 @@ def stage(manifest_path, assets, output):
     revision = git("rev-parse", "HEAD").decode().strip()
     changed = git("diff", "--name-only", previous, revision).decode().splitlines()
     if (previous != revision and not changed) or any(
-        path not in {PRESET_PATH, "README.md", ".gitattributes", "tools/qa-public-497.json"}
-        and not path.startswith("tools/keybinds/")
+        path not in {PRESET_PATH, WARNING_JAR, "README.md", ".gitattributes", "tools/qa-public-497.json",
+                     "library/loaded-mods.json", "library/mod-pages.json"}
+        and not path.startswith(("tools/keybinds/", "tools/multiplayer-warning/"))
         for path in changed
     ):
-        raise ValueError("This staging command requires a controls-only update")
+        raise ValueError("This staging command requires a pack-owned controls or multiplayer update")
     preset = PRESET.read_bytes()
     if preset != render().encode() or preset != git("show", f"{revision}:{PRESET_PATH}"):
         raise ValueError("Preset does not match its inputs or source commit")
@@ -78,16 +81,39 @@ def stage(manifest_path, assets, output):
     if metadata["revision"] != previous or metadata["id"] != manifest["packId"]:
         raise ValueError("Library does not match release")
     metadata["revision"] = revision
+    warning = (PACK / WARNING_JAR).read_bytes()
+    if warning != git("show", f"{revision}:{WARNING_JAR}"):
+        raise ValueError("Multiplayer helper differs from the source commit")
+    inventory = json.loads(git("show", f"{revision}:library/loaded-mods.json"))
+    loaded = next(row for row in inventory["mods"] if row["id"] == WARNING_ID)
+    if loaded["source"] != WARNING_JAR:
+        raise ValueError("Multiplayer helper has an unexpected source path")
+    pages = json.loads(git("show", f"{revision}:library/mod-pages.json"))
+    old_count = sum(row["isLoadedMod"] for row in metadata["mods"])
+    if old_count != manifest["modCount"]:
+        raise ValueError("Old release mod count does not match its library")
+    metadata["mods"] = [row for row in metadata["mods"] if row["id"] != WARNING_ID]
+    metadata["mods"].append({
+        "id": WARNING_ID, "name": loaded["name"], "version": loaded["version"],
+        "isLoadedMod": True, "websiteUrl": pages[WARNING_ID], "websiteAvailable": True,
+        "parentId": None, "isLibrary": False,
+    })
+    manifest["modCount"] = sum(row["isLoadedMod"] for row in metadata["mods"])
+    rows[WARNING_JAR] = {"path": WARNING_JAR, **pin(warning)}
     card["library.json"] = json.dumps(metadata, ensure_ascii=False).encode("utf-8")
 
     output.mkdir()
     launcher_next = write_zip(output, contents, lambda digest: f"r-{digest[:12]}-launcher.zip")
     launcher_next.update(kind="zipRoot", covers=sorted(contents))
+    warning_next = write_zip(output, {WARNING_JAR: warning},
+                             lambda digest: f"r-{digest[:12]}-mods.reclamation-multiplayer.zip")
+    warning_next.update(kind="zipRoot", covers=[WARNING_JAR])
     library_next = write_zip(output, card, lambda digest: f"library-{digest}.zip")
     library_next["revision"] = revision
     manifest["files"] = [rows[path] for path in sorted(rows)]
     manifest["assets"] = sorted(
-        [row for row in manifest["assets"] if row != launcher] + [launcher_next],
+        [row for row in manifest["assets"] if row != launcher and WARNING_JAR not in row["covers"]]
+        + [launcher_next, warning_next],
         key=lambda row: row["name"],
     )
     if sorted(path for row in manifest["assets"] for path in row["covers"]) != sorted(rows):
