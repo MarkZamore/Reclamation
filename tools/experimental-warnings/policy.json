@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "policy": "skip-experimental-world-confirmation-v1",
+  "platform": {
+    "minecraftVersion": "1.20.1",
+    "loader": {
+      "type": "forge",
+      "version": "47.4.0"
+    }
+  },
+  "files": {
+    "config/lanminecraft/experimental-world-confirmation.jar": {
+      "sizeBytes": 385299,
+      "sha256": "6db006392ebcfa6ce3cb5d21da8c8772eacfa388052e6e97bd5dd925734dd8bc"
+    },
+    "launcher/jvm-args.txt": {
+      "sizeBytes": 111,
+      "sha256": "6d1dd3ea430f376463bda0836f9b2cdcb5ee6d032c17b1fdf9100b647d5323d2"
+    },
+    "launcher/pack-owned.txt": {
+      "sizeBytes": 74,
+      "sha256": "6157be94a8289c8638cff19b3428ad3c634b25ca744080ccd210b71a3dbd3ed1"
+    }
+  },
+  "sources": {},
+  "reviewedPredecessor": {
+    "revision": "12e25022c96e7d567903cafe9ce47f71de35f3d7",
+    "sha256": "1d3a80286795da64228280eefceabd9946d2ee7acee00617978ccde9cf6f86c0"
+  },
+  "nativeProof": "Mojang client bytecode 1.16.5, 1.18.2, 1.19.2, 1.20.1, 1.21.1, 26.3 analyzed with ASM BasicVerifier.",
+  "jvmProof": "Java 8, 21 and 25 -Xverify:all callback/lifecycle branch probes. Full modded clients and visual UI NOT RUN."
+}
